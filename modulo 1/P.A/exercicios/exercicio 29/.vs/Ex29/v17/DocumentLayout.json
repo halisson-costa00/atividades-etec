@@ -1,0 +1,57 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Projetos\\HALISSON2 (1)\\HALISSON2\\B.D\\exercicios\\Ex29\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{612553E1-B700-4382-AE90-E6E7C43AD1EF}|Ex29.csproj|c:\\projetos\\halisson2 (1)\\halisson2\\b.d\\exercicios\\ex29\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{612553E1-B700-4382-AE90-E6E7C43AD1EF}|Ex29.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{612553E1-B700-4382-AE90-E6E7C43AD1EF}|Ex29.csproj|C:\\Projetos\\HALISSON2 (1)\\HALISSON2\\B.D\\exercicios\\Ex29\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{612553E1-B700-4382-AE90-E6E7C43AD1EF}|Ex29.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Projetos\\HALISSON2 (1)\\HALISSON2\\B.D\\exercicios\\Ex29\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "C:\\Projetos\\HALISSON2 (1)\\HALISSON2\\B.D\\exercicios\\Ex29\\Form1.cs",
+              "RelativeToolTip": "Form1.cs",
+              "ViewState": "AgIAAGcAAAAAAAAAAIAwwHQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T02:39:35.137Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Projetos\\HALISSON2 (1)\\HALISSON2\\B.D\\exercicios\\Ex29\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "C:\\Projetos\\HALISSON2 (1)\\HALISSON2\\B.D\\exercicios\\Ex29\\Form1.cs [Design]",
+              "RelativeToolTip": "Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T02:39:35.856Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

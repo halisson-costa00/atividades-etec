@@ -1,0 +1,146 @@
+body {
+	font-family: sans-serif;
+	background-image: url("../joalheria/diamante-vermelho-1-1024x574.jpg.webp");
+	background-size: cover;
+	text-align: center;
+	font-weight: 1000;
+	color: rgb(235, 236, 236);
+	font-size: 1,7%;
+	
+}
+H2 
+{
+	border-style :solid ;
+	border-color: rgb(253, 253, 253);
+	display:flex;
+	justify-content: center;
+	color: rgb(255, 255, 255);
+	
+}
+
+label
+ {
+
+	text-align: center;
+	display: inline-block;
+	border-color:rgb(255, 255, 255)
+}
+
+h3 {
+	text-align: center;
+	box-shadow: 0px 2px 30px 5px rgb(20, 20, 20);
+}
+
+legend {
+	width: 200px;
+	text-align: center;
+	background: linear-gradient(to right, rgb(255, 255, 255), rgb(252, 252, 252), rgb(255, 253, 253));
+	color: rgb(255, 255, 255);
+	border-radius: 10px;
+	box-shadow: 0px 0px 5px 5px hsla(0, 0%, 96%, 0.5);
+	/*  1a. medida - valor positivo - à direita
+			                 valor negativo - à esquerda
+							 valor nulo - tanto à esquerda quanto direita
+				2a. medida - valor positivo - na parte inferior 
+			                 valor negativo - na parte superior
+							 valor nulo - tanto à inferior quanto superior
+				3a. medida - densidade da tinta - semelhante à aproximação do
+				             spray de tinta - maior valor, mais esfumaçado
+				4a. medida - área a ser abrangida com a tinta - quanto maior   
+				             o valor, mais esplalhado */
+}
+
+fieldset {
+	border-radius: 30px;
+	/* 1a. medida - superior esquerdo
+			   2a. medida - superior direito
+			   3a. medida - inferior direito
+			   4a. medida - inferior esquerdo */
+	width: 100%;
+	padding-bottom: 5px;
+	text-align: center;
+}
+
+fieldset div 
+{
+	padding-top: 7px;
+	padding-bottom: 7px;
+	text-align: center;
+	
+}
+
+label 
+{
+	color: rgb(255, 255, 255);
+	font-size: 30px;
+	
+}
+
+form 
+{
+	
+	width: 95%;
+	text-align: center;
+}
+
+input[type=text],input[type=date],input[type=checkbox],input[type=email],input[type=radio] 
+{
+	background-color: rgb(255, 255, 255);
+	font-size: larger;
+	text-align: start;
+
+
+}
+
+#nome 
+{
+	width: 40%;
+	text-align: center;
+}
+
+#email 
+{
+	width: 33%;
+	text-align: center;
+}
+
+input[type=submit] 
+{
+	border-radius: 5px;
+	background-color: rgb(255, 255, 255);
+	margin-left: 33%;
+}
+
+textarea 
+{
+	background-color: rgb(243, 240, 240);
+	border-radius: 10px;
+	vertical-align: top;
+	height: 5em;	
+	font-size: 117%;
+	resize: none;
+	width: 60%;
+}
+
+.titu 
+{
+	text-decoration: underline;
+	
+}
+
+.quadro {
+	text-align: justify;
+	margin-left: 35%;
+}
+button{
+	width: 100px;
+}
+input [value=cadastrar]
+{
+	background-color: rgb(255, 255, 255);
+}
+.nome-completo
+{
+	margin-left:auto;
+	text-align: center;
+}

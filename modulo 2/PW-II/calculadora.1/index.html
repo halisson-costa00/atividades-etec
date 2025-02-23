@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8"> <!-- Define o conjunto de caracteres como UTF-8 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Para responsividade em dispositivos móveis -->
+    <link rel="stylesheet" href="style.css"> <!-- Link para o arquivo CSS -->
+    <title>Calculadora HN</title> <!-- Título da página -->
+</head>
+<body>
+    <h1>CALCULADORA</h1> <!-- Título da calculadora -->
+    <div class="calculator"> <!-- Contêiner principal da calculadora -->
+        <input type="text" disabled id="display"> <!-- Campo de entrada para exibir os resultados, desabilitado para edição -->
+        <div class="box-buttons"> <!-- Contêiner para os botões -->
+            <button onclick="clean()">C</button> <!-- Botão para limpar a entrada -->
+            <button onclick="back()">&lt;</button> <!-- Botão para apagar o último caractere -->
+            <button onclick="insertToDisplay('/')">/</button> <!-- Botão para inserir o operador de divisão -->
+            <button onclick="insertToDisplay('*')">*</button> <!-- Botão para inserir o operador de multiplicação -->
+            <button onclick="insertToDisplay('7')">7</button> <!-- Botão para inserir o número 7 -->
+            <button onclick="insertToDisplay('8')">8</button> <!-- Botão para inserir o número 8 -->
+            <button onclick="insertToDisplay('9')">9</button> <!-- Botão para inserir o número 9 -->
+            <button onclick="insertToDisplay('-')">-</button> <!-- Botão para inserir o operador de subtração -->
+            <button onclick="insertToDisplay('4')">4</button> <!-- Botão para inserir o número 4 -->
+            <button onclick="insertToDisplay('5')">5</button> <!-- Botão para inserir o número 5 -->
+            <button onclick="insertToDisplay('6')">6</button> <!-- Botão para inserir o número 6 -->
+            <button onclick="insertToDisplay('+')">+</button> <!-- Botão para inserir o operador de adição -->
+            <button onclick="insertToDisplay('3')">3</button> <!-- Botão para inserir o número 3 -->
+            <button onclick="insertToDisplay('2')">2</button> <!-- Botão para inserir o número 2 -->
+            <button onclick="insertToDisplay('1')">1</button> <!-- Botão para inserir o número 1 -->
+            <button class="btn0" onclick="insertToDisplay('0')">0</button> <!-- Botão para inserir o número 0, ocupando mais espaço -->
+            <button onclick="insertToDisplay('.')">.</button> <!-- Botão para inserir o ponto decimal -->
+            <button class="btnresult" onclick="result()">=</button> <!-- Botão para calcular o resultado -->
+        </div>
+    </div>
+    <script src="script.js"></script> <!-- Link para o arquivo JavaScript -->
+</body>
+</html>

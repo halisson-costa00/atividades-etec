@@ -1,0 +1,66 @@
+C:\Users\Acer\source\repos\exercicios24\exercicios24\bin\Debug\net8.0-windows\exercicios24.exe
+C:\Users\Acer\source\repos\exercicios24\exercicios24\bin\Debug\net8.0-windows\exercicios24.deps.json
+C:\Users\Acer\source\repos\exercicios24\exercicios24\bin\Debug\net8.0-windows\exercicios24.runtimeconfig.json
+C:\Users\Acer\source\repos\exercicios24\exercicios24\bin\Debug\net8.0-windows\exercicios24.dll
+C:\Users\Acer\source\repos\exercicios24\exercicios24\bin\Debug\net8.0-windows\exercicios24.pdb
+C:\Users\Acer\source\repos\exercicios24\exercicios24\obj\Debug\net8.0-windows\exercicios24.Form1.resources
+C:\Users\Acer\source\repos\exercicios24\exercicios24\obj\Debug\net8.0-windows\exercicios24.csproj.GenerateResource.cache
+C:\Users\Acer\source\repos\exercicios24\exercicios24\obj\Debug\net8.0-windows\exercicios24.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Acer\source\repos\exercicios24\exercicios24\obj\Debug\net8.0-windows\exercicios24.AssemblyInfoInputs.cache
+C:\Users\Acer\source\repos\exercicios24\exercicios24\obj\Debug\net8.0-windows\exercicios24.AssemblyInfo.cs
+C:\Users\Acer\source\repos\exercicios24\exercicios24\obj\Debug\net8.0-windows\exercicios24.csproj.CoreCompileInputs.cache
+C:\Users\Acer\source\repos\exercicios24\exercicios24\obj\Debug\net8.0-windows\exercicios24.dll
+C:\Users\Acer\source\repos\exercicios24\exercicios24\obj\Debug\net8.0-windows\refint\exercicios24.dll
+C:\Users\Acer\source\repos\exercicios24\exercicios24\obj\Debug\net8.0-windows\exercicios24.pdb
+C:\Users\Acer\source\repos\exercicios24\exercicios24\obj\Debug\net8.0-windows\exercicios24.genruntimeconfig.cache
+C:\Users\Acer\source\repos\exercicios24\exercicios24\obj\Debug\net8.0-windows\ref\exercicios24.dll
+C:\Projetos\Exercicios P.A\exercicios24\exercicios24\bin\Debug\net8.0-windows\exercicios24.exe
+C:\Projetos\Exercicios P.A\exercicios24\exercicios24\bin\Debug\net8.0-windows\exercicios24.deps.json
+C:\Projetos\Exercicios P.A\exercicios24\exercicios24\bin\Debug\net8.0-windows\exercicios24.runtimeconfig.json
+C:\Projetos\Exercicios P.A\exercicios24\exercicios24\bin\Debug\net8.0-windows\exercicios24.dll
+C:\Projetos\Exercicios P.A\exercicios24\exercicios24\bin\Debug\net8.0-windows\exercicios24.pdb
+C:\Projetos\Exercicios P.A\exercicios24\exercicios24\obj\Debug\net8.0-windows\exercicios24.Form1.resources
+C:\Projetos\Exercicios P.A\exercicios24\exercicios24\obj\Debug\net8.0-windows\exercicios24.csproj.GenerateResource.cache
+C:\Projetos\Exercicios P.A\exercicios24\exercicios24\obj\Debug\net8.0-windows\exercicios24.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projetos\Exercicios P.A\exercicios24\exercicios24\obj\Debug\net8.0-windows\exercicios24.AssemblyInfoInputs.cache
+C:\Projetos\Exercicios P.A\exercicios24\exercicios24\obj\Debug\net8.0-windows\exercicios24.AssemblyInfo.cs
+C:\Projetos\Exercicios P.A\exercicios24\exercicios24\obj\Debug\net8.0-windows\exercicios24.csproj.CoreCompileInputs.cache
+C:\Projetos\Exercicios P.A\exercicios24\exercicios24\obj\Debug\net8.0-windows\exercicios24.dll
+C:\Projetos\Exercicios P.A\exercicios24\exercicios24\obj\Debug\net8.0-windows\refint\exercicios24.dll
+C:\Projetos\Exercicios P.A\exercicios24\exercicios24\obj\Debug\net8.0-windows\exercicios24.pdb
+C:\Projetos\Exercicios P.A\exercicios24\exercicios24\obj\Debug\net8.0-windows\exercicios24.genruntimeconfig.cache
+C:\Projetos\Exercicios P.A\exercicios24\exercicios24\obj\Debug\net8.0-windows\ref\exercicios24.dll
+F:\1A-MODULAR\HALISSON2\P.A\exercicios\exercicios24\exercicios24\exercicios24\bin\Debug\net8.0-windows\exercicios24.exe
+F:\1A-MODULAR\HALISSON2\P.A\exercicios\exercicios24\exercicios24\exercicios24\bin\Debug\net8.0-windows\exercicios24.deps.json
+F:\1A-MODULAR\HALISSON2\P.A\exercicios\exercicios24\exercicios24\exercicios24\bin\Debug\net8.0-windows\exercicios24.runtimeconfig.json
+F:\1A-MODULAR\HALISSON2\P.A\exercicios\exercicios24\exercicios24\exercicios24\bin\Debug\net8.0-windows\exercicios24.dll
+F:\1A-MODULAR\HALISSON2\P.A\exercicios\exercicios24\exercicios24\exercicios24\bin\Debug\net8.0-windows\exercicios24.pdb
+F:\1A-MODULAR\HALISSON2\P.A\exercicios\exercicios24\exercicios24\exercicios24\obj\Debug\net8.0-windows\exercicios24.Form1.resources
+F:\1A-MODULAR\HALISSON2\P.A\exercicios\exercicios24\exercicios24\exercicios24\obj\Debug\net8.0-windows\exercicios24.csproj.GenerateResource.cache
+F:\1A-MODULAR\HALISSON2\P.A\exercicios\exercicios24\exercicios24\exercicios24\obj\Debug\net8.0-windows\exercicios24.GeneratedMSBuildEditorConfig.editorconfig
+F:\1A-MODULAR\HALISSON2\P.A\exercicios\exercicios24\exercicios24\exercicios24\obj\Debug\net8.0-windows\exercicios24.AssemblyInfoInputs.cache
+F:\1A-MODULAR\HALISSON2\P.A\exercicios\exercicios24\exercicios24\exercicios24\obj\Debug\net8.0-windows\exercicios24.AssemblyInfo.cs
+F:\1A-MODULAR\HALISSON2\P.A\exercicios\exercicios24\exercicios24\exercicios24\obj\Debug\net8.0-windows\exercicios24.csproj.CoreCompileInputs.cache
+F:\1A-MODULAR\HALISSON2\P.A\exercicios\exercicios24\exercicios24\exercicios24\obj\Debug\net8.0-windows\exercicios24.dll
+F:\1A-MODULAR\HALISSON2\P.A\exercicios\exercicios24\exercicios24\exercicios24\obj\Debug\net8.0-windows\refint\exercicios24.dll
+F:\1A-MODULAR\HALISSON2\P.A\exercicios\exercicios24\exercicios24\exercicios24\obj\Debug\net8.0-windows\exercicios24.pdb
+F:\1A-MODULAR\HALISSON2\P.A\exercicios\exercicios24\exercicios24\exercicios24\obj\Debug\net8.0-windows\exercicios24.genruntimeconfig.cache
+F:\1A-MODULAR\HALISSON2\P.A\exercicios\exercicios24\exercicios24\exercicios24\obj\Debug\net8.0-windows\ref\exercicios24.dll
+Z:\1A-MODULAR\HALISSON2\P.A\exercicios\exercicios24\exercicios24\exercicios24\bin\Debug\net8.0-windows\exercicios24.exe
+Z:\1A-MODULAR\HALISSON2\P.A\exercicios\exercicios24\exercicios24\exercicios24\bin\Debug\net8.0-windows\exercicios24.deps.json
+Z:\1A-MODULAR\HALISSON2\P.A\exercicios\exercicios24\exercicios24\exercicios24\bin\Debug\net8.0-windows\exercicios24.runtimeconfig.json
+Z:\1A-MODULAR\HALISSON2\P.A\exercicios\exercicios24\exercicios24\exercicios24\bin\Debug\net8.0-windows\exercicios24.dll
+Z:\1A-MODULAR\HALISSON2\P.A\exercicios\exercicios24\exercicios24\exercicios24\bin\Debug\net8.0-windows\exercicios24.pdb
+Z:\1A-MODULAR\HALISSON2\P.A\exercicios\exercicios24\exercicios24\exercicios24\obj\Debug\net8.0-windows\exercicios24.Form1.resources
+Z:\1A-MODULAR\HALISSON2\P.A\exercicios\exercicios24\exercicios24\exercicios24\obj\Debug\net8.0-windows\exercicios24.Properties.Resources.resources
+Z:\1A-MODULAR\HALISSON2\P.A\exercicios\exercicios24\exercicios24\exercicios24\obj\Debug\net8.0-windows\exercicios24.csproj.GenerateResource.cache
+Z:\1A-MODULAR\HALISSON2\P.A\exercicios\exercicios24\exercicios24\exercicios24\obj\Debug\net8.0-windows\exercicios24.GeneratedMSBuildEditorConfig.editorconfig
+Z:\1A-MODULAR\HALISSON2\P.A\exercicios\exercicios24\exercicios24\exercicios24\obj\Debug\net8.0-windows\exercicios24.AssemblyInfoInputs.cache
+Z:\1A-MODULAR\HALISSON2\P.A\exercicios\exercicios24\exercicios24\exercicios24\obj\Debug\net8.0-windows\exercicios24.AssemblyInfo.cs
+Z:\1A-MODULAR\HALISSON2\P.A\exercicios\exercicios24\exercicios24\exercicios24\obj\Debug\net8.0-windows\exercicios24.csproj.CoreCompileInputs.cache
+Z:\1A-MODULAR\HALISSON2\P.A\exercicios\exercicios24\exercicios24\exercicios24\obj\Debug\net8.0-windows\exercicios24.dll
+Z:\1A-MODULAR\HALISSON2\P.A\exercicios\exercicios24\exercicios24\exercicios24\obj\Debug\net8.0-windows\refint\exercicios24.dll
+Z:\1A-MODULAR\HALISSON2\P.A\exercicios\exercicios24\exercicios24\exercicios24\obj\Debug\net8.0-windows\exercicios24.pdb
+Z:\1A-MODULAR\HALISSON2\P.A\exercicios\exercicios24\exercicios24\exercicios24\obj\Debug\net8.0-windows\exercicios24.genruntimeconfig.cache
+Z:\1A-MODULAR\HALISSON2\P.A\exercicios\exercicios24\exercicios24\exercicios24\obj\Debug\net8.0-windows\ref\exercicios24.dll
+F:\1A-MODULAR\HALISSON2\P.A\exercicios\exercicios24\exercicios24\exercicios24\obj\Debug\net8.0-windows\exercicios24.Properties.Resources.resources

@@ -1,0 +1,108 @@
+body
+	{
+		font-family: Verdana, Geneva, Tahoma, sans-serif;
+		background-image:url("C:/Users/PauloSergio/Documents/Sandra/Aulas/PW I/HTML Imagens/florestasombria.jpg");
+	    background-size:cover;
+	}
+		
+h3
+	{
+		text-align:center;
+		box-shadow:0px 2px 30px 5px rgb(20,20,20);
+	}
+
+legend
+	{
+		width:200px;
+		text-align:center;
+		background:linear-gradient(to right,rgb(100,100,100),rgb(100,120,10),rgb(20,20,20));
+		color:rgb(255,255,255);
+		border-radius:10px;
+		box-shadow:0px 0px 5px 5px rgba(0,170,50,0.5);
+			/*  1a. medida - valor positivo - à direita
+			                 valor negativo - à esquerda
+							 valor nulo - tanto à esquerda quanto direita
+				2a. medida - valor positivo - na parte inferior 
+			                 valor negativo - na parte superior
+							 valor nulo - tanto à inferior quanto superior
+				3a. medida - densidade da tinta - semelhante à aproximação do
+				             spray de tinta - maior valor, mais esfumaçado
+				4a. medida - área a ser abrangida com a tinta - quanto maior   
+				             o valor, mais esplalhado */
+	}
+		
+fieldset
+	{
+		border-radius:30px; 
+			/* 1a. medida - superior esquerdo
+			   2a. medida - superior direito
+			   3a. medida - inferior direito
+			   4a. medida - inferior esquerdo */
+		width:70%;
+		padding-bottom:2px;
+	}
+
+fieldset div
+	{
+		padding-top: 7px;
+		padding-bottom:7px;
+		text-align:center;
+	}
+
+label
+	{
+		color: rgb(243, 61, 6);
+	}
+		
+form
+	{
+		margin-left:20%;
+		width:75%;
+	}
+
+input[type=text],input[type=date],input[type=checkbox],input[type=email],input[type=radio],select
+	{
+		background-color:rgba(245, 16, 16, 0.5);
+	}
+
+#nome, #email, #niver,#mens
+	{
+		border-radius:30px;
+	}
+
+#nome
+	{
+		width:40%;
+	}
+
+#email
+	{
+		width:33%;
+	}
+
+input[type=submit]
+	{
+		border-radius:5px;
+		background-color:rgba(245, 16, 16, 0.5);
+		margin-left:33%;
+	}
+
+textarea
+	{
+		background-color:rgba(245, 16, 16, 0.5);
+		font-size:117%;
+		resize:none;
+		border-radius:15px;
+		width:60%;
+	}
+.titu
+	{
+		text-decoration:underline;
+	}
+
+.quadro
+	{
+		text-align:justify;
+		margin-left:35%;
+	}
+

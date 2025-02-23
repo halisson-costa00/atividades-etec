@@ -1,0 +1,128 @@
+<!doctype HTML>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8"/>
+        <title>Accordium JavaScript com clique</title>
+        <style type="text/css">
+        body
+        {
+            font-size:3vw;
+        }
+       
+        p
+        {
+            font-size:0.3vw;
+        }
+       
+        .escondida
+        {
+            visibility: hidden;
+            height:0px;
+            transition: 0.1s 0.1s ease all;
+        }
+       
+        .exibida
+        {
+            visibility: visible;
+            height:auto;
+            transition: 0.1s 0.1s ease all;
+        }
+ 
+        /*#Resp1, #Resp2, #Resp3, #Resp4, #Resp5, #Resp6*/
+        [id*="Resp"]
+        {
+            width:99.5%;
+        }
+       
+        .pergunta
+        {
+            background-color:rgba(114, 250, 250, 0.925); /*background-color:#000000;*/
+            color:rgb(0, 0, 0); /*color:#ffffff;*/
+            text-decoration:none;
+            text-align:center;
+            cursor:pointer;
+        }
+       
+        </style>
+       
+        <script language="JavaScript">
+       
+            function Exibe_Resposta(x)
+            {
+                //x="Resp1" ou x="Resp2" ou "Resp3"...
+
+                
+                               
+                if (document.getElementById(x).className.indexOf("exibida") == -1) //o nome da classe NÃO É "exibida"
+                    /*troca-se o valor da "class" para "resposta exibida"*/
+                    document.getElementById(x).className = document.getElementById(x).className.replace("escondida","exibida");
+                else
+                    /*troca-se o valor da "class" para "resposta escondida"*/
+                    document.getElementById(x).className = document.getElementById(x).className.replace("exibida","escondida");
+            }
+           
+            function Troca_cor()
+            {
+                document.bgColor=document.getElementById("cor").value;
+                //usando "name" --> document.bgColor=document.form1.cores.values;
+            }
+        </script>
+    </head>
+    <body>
+        <form name="form1">
+            Escolha uma cor
+            <select id="cor" name="cores" onChange="Troca_cor()">
+                <option value="#ffffff">...</option>
+                <option value="#ff0000">Vermelho</option>
+                <option value="#ffff00">Amarelo</option>
+                <option value="#00CCff">Azul</option>
+                <option value="#005500">Verde</option>
+            </select>
+        </form>
+     
+        <div onClick="Exibe_Resposta('Resp1')" class="pergunta">As jóias são Legitimas?</div>
+        <!-- quando rodar esse comando 'x.className += " exibida"',
+             esta classe abaixo ficará 'class="resposta escondida exibida"'
+             Portanto, os parâmetros da classe 'escondida' serão sobrespostos
+             com os parâmetros da classe 'exibida', anulando o anterior -->
+        <div id="Resp1" class="escondida">
+            Sim , todas jóias são legitimas , extraidas da natureza e lapidadas...
+        </div>
+       
+        <p></p>
+       
+        <div onClick="Exibe_Resposta('Resp2')" class="pergunta">Como cuidar das joias?</div>
+        <div id="Resp2" class="escondida">
+            Evite contato com produtos químicos, retire-as ao tomar banho ou praticar atividades físicas e guarde-as em locais secos e protegidos.
+        </div>
+       
+        <p></p>
+       
+        <div onClick="Exibe_Resposta('Resp3')" class="pergunta">Quais são os tipos de metais usados nas joias?</div>
+        <div id="Resp3" class="escondida">
+            Ouro (amarelo, branco, rosa), prata (esterlina 92,5%), platina, aço inoxidável, titânio e tungstênio.
+        </div>
+       
+        <p></p>
+       
+        <div onClick="Exibe_Resposta('Resp4')" class="pergunta">Como escolher uma pedra preciosa?</div>
+        <div id="Resp4" class="escondida">
+            Escolha com base no gosto pessoal, orçamento e simbologia. Diamantes, safiras, esmeraldas e rubis são populares.
+        </div>
+       
+        <p></p>
+       
+        <div onClick="Exibe_Resposta('Resp5')" class="pergunta">O que é quilatagem de um diamante?</div>
+        <div id="Resp5" class="escondida">
+            A quilatagem indica o peso da pedra, sendo 1 quilate igual a 0,2 gramas.
+        </div>
+       
+        <p></p>
+       
+        <div onClick="Exibe_Resposta('Resp6')" class="pergunta">Qual a diferença entre ouro 18k e 24k?</div>
+        <div id="Resp6" class="escondida">
+            O ouro 18k é uma liga de 75% de ouro puro, mais durável, enquanto o ouro 24k é ouro puro (99,9%).
+        </div>
+       
+    </body>
+</html>

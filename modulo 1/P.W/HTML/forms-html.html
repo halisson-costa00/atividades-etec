@@ -1,0 +1,73 @@
+﻿<!doctype HTML>
+<html lang="pt-br">
+	<head>
+		<script></script>
+		<meta charset="utf-8"/>
+		<title>Formulário de clientes</title>
+		<link rel="stylesheet" href="..\CSS\forms-css.css" type="text/css"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 	</head>
+	<body>
+		<form action="mailto:joalheria.luxo@gmail.com" method="post" enctype="text/plain">
+			<h2>Trabalhe Conosco</h2>
+			<div class="form-group">
+			<label for="nome">Dados Pessoais:</label>
+			</div>
+			<fieldset>
+			<label for="Nome">Nome completo:&nbsp;&nbsp;</label>
+			<input type="text" name="Nome" id="txtnome" placeholder="Preencha o nome completo" required /><br/>
+		
+			<label for="Endereco">Endereço:&nbsp;&nbsp;</label>
+			<input type="text" name="Endereco" id="txtende" placeholder="Preencha o endereço completo" required /><br/>
+		
+			<label for="Cidade">Cidade:&nbsp;&nbsp;</label>
+			<input type="text" name="Cidade" id="txtcida" placeholder="Preencha o nome completo da cidade" value="São Paulo" required /><br/>
+		
+			<label for="UF">UF:&nbsp;&nbsp;</label>
+			<select name="UF" id="txtuf">
+				<option>AC</option>
+				<option>AM</option>
+				<option>AL</option>
+				<option>AP</option>
+				<option>BA</option>
+				<option>CE</option>
+				<option>DF</option>
+				<option>ES</option>
+				<option>GO</option>
+				<option>MA</option>
+				<option>MG</option>
+				<option>MS</option>
+				<option>MT</option>
+				<option>PA</option>
+				<option>PB</option>
+				<option>PE</option>
+				<option>PI</option>
+				<option>PR</option>
+				<option>RJ</option>
+				<option>RN</option>
+				<option>RO</option>
+				<option>RR</option>
+				<option>RS</option>
+				<option>SC</option>
+				<option>SE</option>
+				<option selected>SP</option>
+				<option>TO</option>
+			</select><br/>
+			
+			<label for="CEP">CEP:&nbsp;&nbsp;</label>
+			<input type="text" name="CEP" id="txtcep" placeholder="Preencha o seu CEP"/><br/>
+		
+			<label for="Sexo">Sexo:&nbsp;&nbsp;</label>
+			<input type="radio" name="Sexo" id="txtsexof" value="F" />Feminino&nbsp;&nbsp;
+			<input type="radio" name="Sexo" id="txtsexom" value="M" checked />Masculino<br/>
+			
+			<label for="e-Mail">e-Mail:&nbsp;&nbsp;</label>
+			<input type="email" name="e-Mail" id="txtemai" placeholder="Preencha o seu e-Mail" required /><br/>
+		</fieldset>
+			
+			<input type="submit" value="Cadastrar" onClick="alert('Seus dados foram enviados com sucesso!')"/>&nbsp;&nbsp;
+			<input type="reset" value="Limpar"/>
+		</form>
+	</body>
+</html>
+  

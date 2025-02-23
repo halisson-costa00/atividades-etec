@@ -1,0 +1,64 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Projetos\\Exercicios P.A\\exercicio25\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CC08A8DC-7652-4B89-89AB-BB32E169A138}|exercicio25\\exercicio25.csproj|c:\\projetos\\exercicios p.a\\exercicio25\\exercicio25\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CC08A8DC-7652-4B89-89AB-BB32E169A138}|exercicio25\\exercicio25.csproj|solutionrelative:exercicio25\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC08A8DC-7652-4B89-89AB-BB32E169A138}|exercicio25\\exercicio25.csproj|c:\\projetos\\exercicios p.a\\exercicio25\\exercicio25\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC08A8DC-7652-4B89-89AB-BB32E169A138}|exercicio25\\exercicio25.csproj|solutionrelative:exercicio25\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Projetos\\Exercicios P.A\\exercicio25\\exercicio25\\Form1.cs",
+              "RelativeDocumentMoniker": "exercicio25\\Form1.cs",
+              "ToolTip": "C:\\Projetos\\Exercicios P.A\\exercicio25\\exercicio25\\Form1.cs",
+              "RelativeToolTip": "exercicio25\\Form1.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAswBkAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-11T03:08:36.612Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs [Projeto]",
+              "DocumentMoniker": "C:\\Projetos\\Exercicios P.A\\exercicio25\\exercicio25\\Form1.cs",
+              "RelativeDocumentMoniker": "exercicio25\\Form1.cs",
+              "ToolTip": "C:\\Projetos\\Exercicios P.A\\exercicio25\\exercicio25\\Form1.cs [Projeto]",
+              "RelativeToolTip": "exercicio25\\Form1.cs [Projeto]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-11T03:07:54.982Z",
+              "EditorCaption": " [Projeto]"
+            }
+          ]
+        },
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
