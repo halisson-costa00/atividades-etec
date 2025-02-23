@@ -1,0 +1,40 @@
+C:\Users\vinic\Desktop\CCS\bin\Debug\test.exe.config
+C:\Users\vinic\Desktop\CCS\bin\Debug\test.exe
+C:\Users\vinic\Desktop\CCS\bin\Debug\test.pdb
+C:\Users\vinic\Desktop\CCS\obj\Debug\test.csproj.AssemblyReference.cache
+C:\Users\vinic\Desktop\CCS\obj\Debug\test.frmDetalhesPedido.resources
+C:\Users\vinic\Desktop\CCS\obj\Debug\test.frmBemVindo.resources
+C:\Users\vinic\Desktop\CCS\obj\Debug\test.frmConsultarPedido.resources
+C:\Users\vinic\Desktop\CCS\obj\Debug\test.frmPedido.resources
+C:\Users\vinic\Desktop\CCS\obj\Debug\test.frmCliente.resources
+C:\Users\vinic\Desktop\CCS\obj\Debug\test.frmConsultarFuncionario.resources
+C:\Users\vinic\Desktop\CCS\obj\Debug\test.frmConsultarCliente.resources
+C:\Users\vinic\Desktop\CCS\obj\Debug\test.frmFuncionario.resources
+C:\Users\vinic\Desktop\CCS\obj\Debug\test.frmLogin.resources
+C:\Users\vinic\Desktop\CCS\obj\Debug\test.frmMenu.resources
+C:\Users\vinic\Desktop\CCS\obj\Debug\test.frmSplash.resources
+C:\Users\vinic\Desktop\CCS\obj\Debug\test.Properties.Resources.resources
+C:\Users\vinic\Desktop\CCS\obj\Debug\test.csproj.GenerateResource.cache
+C:\Users\vinic\Desktop\CCS\obj\Debug\test.csproj.CoreCompileInputs.cache
+C:\Users\vinic\Desktop\CCS\obj\Debug\test.exe
+C:\Users\vinic\Desktop\CCS\obj\Debug\test.pdb
+C:\Users\vinic\Desktop\VINICIUS\Cake Chase\CCS\bin\Debug\test.exe.config
+C:\Users\vinic\Desktop\VINICIUS\Cake Chase\CCS\bin\Debug\test.exe
+C:\Users\vinic\Desktop\VINICIUS\Cake Chase\CCS\bin\Debug\test.pdb
+C:\Users\vinic\Desktop\VINICIUS\Cake Chase\CCS\obj\Debug\test.csproj.AssemblyReference.cache
+C:\Users\vinic\Desktop\VINICIUS\Cake Chase\CCS\obj\Debug\test.frmDetalhesPedido.resources
+C:\Users\vinic\Desktop\VINICIUS\Cake Chase\CCS\obj\Debug\test.frmBemVindo.resources
+C:\Users\vinic\Desktop\VINICIUS\Cake Chase\CCS\obj\Debug\test.frmConsultarPedido.resources
+C:\Users\vinic\Desktop\VINICIUS\Cake Chase\CCS\obj\Debug\test.frmPedido.resources
+C:\Users\vinic\Desktop\VINICIUS\Cake Chase\CCS\obj\Debug\test.frmCliente.resources
+C:\Users\vinic\Desktop\VINICIUS\Cake Chase\CCS\obj\Debug\test.frmConsultarFuncionario.resources
+C:\Users\vinic\Desktop\VINICIUS\Cake Chase\CCS\obj\Debug\test.frmConsultarCliente.resources
+C:\Users\vinic\Desktop\VINICIUS\Cake Chase\CCS\obj\Debug\test.frmFuncionario.resources
+C:\Users\vinic\Desktop\VINICIUS\Cake Chase\CCS\obj\Debug\test.frmLogin.resources
+C:\Users\vinic\Desktop\VINICIUS\Cake Chase\CCS\obj\Debug\test.frmMenu.resources
+C:\Users\vinic\Desktop\VINICIUS\Cake Chase\CCS\obj\Debug\test.frmSplash.resources
+C:\Users\vinic\Desktop\VINICIUS\Cake Chase\CCS\obj\Debug\test.Properties.Resources.resources
+C:\Users\vinic\Desktop\VINICIUS\Cake Chase\CCS\obj\Debug\test.csproj.GenerateResource.cache
+C:\Users\vinic\Desktop\VINICIUS\Cake Chase\CCS\obj\Debug\test.csproj.CoreCompileInputs.cache
+C:\Users\vinic\Desktop\VINICIUS\Cake Chase\CCS\obj\Debug\test.exe
+C:\Users\vinic\Desktop\VINICIUS\Cake Chase\CCS\obj\Debug\test.pdb

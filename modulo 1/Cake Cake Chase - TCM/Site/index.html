@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="CSS\cakechase.css" />
+    <script lang="JavaScript">
+        function goldinsta(x) {
+            x.setAttribute('src', 'IMG/Logos/insta gold.png');
+        }
+        function pinkinsta(x) {
+            x.setAttribute('src', 'IMG/Logos/insta pink.png');
+        }
+    </script>
+    <script lang="JavaScript">
+        window.onload = function () {
+            carousel();
+        };
+        var slideIndex = 0;
+
+        function carousel() {
+            var i;
+            var x = document.getElementsByClassName("slides");
+
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            slideIndex++;
+            if (slideIndex > x.length) { slideIndex = 1 }
+            x[slideIndex - 1].style.display = "block";
+            setTimeout(carousel, 5000); // Change image every 2 seconds
+        }
+    </script>
+    <script lang="JavaScript">
+
+        function Mostra_resposta(resp, chevron) {
+            document.getElementById(resp).classList.toggle("escondida");
+            document.getElementById(chevron).classList.toggle("cima");
+        }
+
+    </script>
+    <script lang="JavaScript">
+        // Open the Modal
+        function openModal() {
+            document.getElementById("myModal").style.display = "block";
+        }
+
+        // Close the Modal
+        function closeModal() {
+            document.getElementById("myModal").style.display = "none";
+        }
+
+        var slideIndex = 1;
+        showSlides(slideIndex);
+
+        // Next/previous controls
+        function plusSlides(n) {
+            slideIndex += n;
+            showSlides(slideIndex);
+        }
+
+        // Thumbnail image controls
+        function currentSlide(n) {
+            slideIndex = n;
+            showSlides(slideIndex);
+        }
+
+        function showSlides(n) {
+            var i;
+            var slides = document.getElementsByClassName("mySlides");
+            if (n > slides.length) { slideIndex = 1 }
+            if (n < 1) { slideIndex = slides.length }
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            slides[slideIndex - 1].style.display = "block";
+        }
+    </script>
+    <script lang="JavaScript">
+        function openMobileMenu(){
+            document.getElementById("fundo").style.display = "block";
+        }
+
+        function closeMobileMenu(){
+            document.getElementById("fundo").style.display = "none";
+        }
+    </script>
+</head>
+
+<body>
+    <header>
+        <img src="IMG\Logos\cakechase logo simple light.png" id="toprightlogo" onclick="carousel()">
+        <nav>
+            <a href="#sobrenos">Sobre Nós</a>
+            <a href="#localizacao">Localização</a>
+            <a href="#galeria">Galeria</a>
+            <a href="#faq">FAQ</a>
+            <a href="#faleconosco">Fale Conosco</a>
+            <a href="https://www.instagram.com/cakechase99/" target="_blank"><img src="IMG/Logos/insta pink.png"
+                    id="insta" onmouseover="goldinsta(this)" onmouseout="pinkinsta(this)"></a>
+        </nav>
+            <img src="IMG/hamburger.png" id="hamburger" onclick="openMobileMenu()">
+    </header>
+    <div id="fundo" onclick="closeMobileMenu()">
+        <div id="mobilemenu" onclick="openMobileMenu()">
+            <a href="#sobrenos" onclick="closeMobileMenu()">Sobre Nós</a><br>
+            <a href="#localizacao" onclick="closeMobileMenu()">Localização</a><br>
+            <a href="#galeria" onclick="closeMobileMenu()">Galeria</a><br>
+            <a href="#faq" onclick="closeMobileMenu()">FAQ</a><br>
+            <a href="#faleconosco" onclick="closeMobileMenu()">Fale Conosco</a><br>
+            <a href="https://www.instagram.com/cakechase99/" target="_blank" onclick="closeMobileMenu()"><img src="IMG/Logos/insta pink.png"
+                    id="insta" onmouseover="goldinsta(this)" onmouseout="pinkinsta(this)"></a>
+        </div>
+    </div>
+    <section id="carrossel">
+        <div class="slides fade"><img src="IMG/Carrossel/carrossel 1.jpg" class="images"></div>
+        <div class="slides fade"><img src="IMG/Carrossel/carrossel 2.jpg" class="images"></div>
+        <div class="slides fade"><img src="IMG/Carrossel/carrossel 3.jpg" class="images"></div>
+    </section>
+    <section class="sections">
+        <div class="titulo" id="sobrenos">Sobre Nós</div>
+        <p id="sobrenosp">Na Cake Chase, transformar sonhos em sabor é a nossa paixão!
+            Somos uma loja especializada em bolos de festa, unindo criatividade,
+            qualidade e amor em cada camada. Desde aniversários inesquecíveis a casamentos memoráveis,
+            criamos bolos personalizados que encantam tanto o paladar quanto os olhos. Utilizamos
+            ingredientes frescos e selecionados para garantir que cada fatia seja uma experiência única
+            e deliciosa. Nosso compromisso é tornar seus momentos especiais ainda mais doces, entregando
+            excelência em cada detalhe. Na Cake Chase, cada celebração é uma aventura de sabor!</p>
+    </section>
+    <section class="sections">
+        <div class="titulo" id="localizacao">Localização</div>
+        <div id="loc"><img src="IMG/localização.png" id="ilocalizacao"></div>
+    </section>
+    <section class="sections">
+        <div class="titulo" id="galeria">Galeria</div>
+        <div class="grid">
+            <img src="IMG/Galeria/bolo1s.png" onclick="openModal();currentSlide(1)" class="hover-shadow">
+            <img src="IMG/Galeria/bolo2s.png" onclick="openModal();currentSlide(2)" class="hover-shadow">
+            <img src="IMG/Galeria/bolo3s.jpg" onclick="openModal();currentSlide(3)" class="hover-shadow">
+            <img src="IMG/Galeria/bolo4s.png" onclick="openModal();currentSlide(4)" class="hover-shadow">
+            <img src="IMG/Galeria/bolo5s.png" onclick="openModal();currentSlide(5)" class="hover-shadow">
+            <img src="IMG/Galeria/bolo6s.png" onclick="openModal();currentSlide(6)" class="hover-shadow">
+            <img src="IMG/Galeria/bolo7s.png" onclick="openModal();currentSlide(7)" class="hover-shadow">
+            <img src="IMG/Galeria/bolo8s.png" onclick="openModal();currentSlide(8)" class="hover-shadow">
+            <img src="IMG/Galeria/bolo9s.png" onclick="openModal();currentSlide(9)" class="hover-shadow">
+            <img src="IMG/Galeria/bolo10s.png" onclick="openModal();currentSlide(10)" class="hover-shadow">
+            <img src="IMG/Galeria/bolo11s.png" onclick="openModal();currentSlide(11)" class="hover-shadow">
+            <img src="IMG/Galeria/bolo12s.png" onclick="openModal();currentSlide(12)" class="hover-shadow">
+            <img src="IMG/Galeria/bolo13s.png" onclick="openModal();currentSlide(13)" class="hover-shadow">
+            <img src="IMG/Galeria/bolo14s.png" onclick="openModal();currentSlide(14)" class="hover-shadow">
+        </div>
+
+        <!-- The Modal/Lightbox -->
+        <div id="myModal" class="modal">
+            <span class="close cursor" onclick="closeModal()">&times;</span>
+            <div class="modal-content">
+
+                <div class="mySlides">
+                    <div class="numbertext">1 / 14</div>
+                    <img src="IMG/Galeria/bolo1.png" style="width:100%">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">2 / 14</div>
+                    <img src="IMG/Galeria/bolo2.png" style="width:100%">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">3 / 14</div>
+                    <img src="IMG/Galeria/bolo3.png" style="width:100%">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">4 / 14</div>
+                    <img src="IMG/Galeria/bolo4.png" style="width:100%">
+                </div>
+                <div class="mySlides">
+                    <div class="numbertext">5 / 14</div>
+                    <img src="IMG/Galeria/bolo5.png" style="width:100%">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">6 / 14</div>
+                    <img src="IMG/Galeria/bolo6.png" style="width:100%">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">7 / 14</div>
+                    <img src="IMG/Galeria/bolo7.png" style="width:100%">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">8 / 14</div>
+                    <img src="IMG/Galeria/bolo8.png" style="width:100%">
+                </div>
+                <div class="mySlides">
+                    <div class="numbertext">9 / 14</div>
+                    <img src="IMG/Galeria/bolo9.png" style="width:100%">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">10 / 14</div>
+                    <img src="IMG/Galeria/bolo10.png" style="width:100%">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">11 / 14</div>
+                    <img src="IMG/Galeria/bolo11.png" style="width:100%">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">12 / 14</div>
+                    <img src="IMG/Galeria/bolo12.png" style="width:100%">
+                </div>
+                <div class="mySlides">
+                    <div class="numbertext">13 / 14</div>
+                    <img src="IMG/Galeria/bolo13.png" style="width:100%">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">14 / 14</div>
+                    <img src="IMG/Galeria/bolo14.png" style="width:100%">
+                </div>
+
+                <!-- Next/previous controls -->
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+            </div>
+        </div>
+    </section>
+    <section class="sections">
+        <div class="titulo" id="faq">Perguntas Frequentes</div>
+        <div id="perguntas">
+            <div class="pergunta">
+                <img src="IMG\chevron.png" id="chevron1" class="chevron" onClick="Mostra_resposta('resp1', 'chevron1')">
+                <span onClick="Mostra_resposta('resp1','chevron1')">Quais tipos de bolos vocês oferecem?</span>
+                <div class="resposta escondida" id="resp1">
+                    <p>
+                        Trabalhamos com bolos personalizados, bolos tradicionais, naked cakes,
+                        bolos decorados com pasta americana e bolos veganos ou sem glúten.</p>
+                </div>
+            </div>
+            <div class="pergunta">
+                <img src="IMG\chevron.png" id="chevron2" class="chevron" onClick="Mostra_resposta('resp2', 'chevron2')">
+                <span onClick="Mostra_resposta('resp2','chevron2')">Vocês fazem bolos temáticos?</span>
+                <div class="resposta escondida" id="resp2">
+                    <p>
+                        Sim, criamos bolos personalizados de acordo com o tema da sua festa.</p>
+                </div>
+            </div>
+            <div class="pergunta">
+                <img src="IMG\chevron.png" id="chevron3" class="chevron" onClick="Mostra_resposta('resp3', 'chevron3')">
+                <span onClick="Mostra_resposta('resp3','chevron3')">Vocês oferecem opções para pessoas com restrições
+                    alimentares?</span>
+                <div class="resposta escondida" id="resp3">
+                    <p>
+                        Sim, fazemos bolos sem glúten, sem lactose, veganos ou com redução de açúcar.
+                        Informe-nos sobre suas necessidades ao fazer o pedido.</p>
+                </div>
+            </div>
+            <div class="pergunta">
+                <img src="IMG\chevron.png" id="chevron4" class="chevron" onClick="Mostra_resposta('resp4', 'chevron4')">
+                <span onClick="Mostra_resposta('resp4','chevron4')">Com quanto tempo de antecedência preciso fazer o
+                    pedido?</span>
+                <div class="resposta escondida" id="resp4">
+                    <p>
+                        Recomendamos fazer o pedido com pelo menos 7 dias de antecedência para
+                        bolos personalizados. Para bolos simples, 3 dias podem ser suficientes.</p>
+                </div>
+            </div>
+        </div>
+        <div class="pergunta">
+            <img src="IMG\chevron.png" id="chevron5" class="chevron" onClick="Mostra_resposta('resp5', 'chevron5')">
+            <span onClick="Mostra_resposta('resp5','chevron5')">Como devo conservar o bolo até a festa?</span>
+            <div class="resposta escondida" id="resp5">
+                <p>
+                    O bolo deve ser mantido refrigerado até o momento do consumo. Evite exposição direta ao sol ou ao
+                    calor.</p>
+            </div>
+        </div>
+        </div>
+        </div>
+        <div class="pergunta">
+            <img src="IMG\chevron.png" id="chevron6" class="chevron" onClick="Mostra_resposta('resp6', 'chevron6')">
+            <span onClick="Mostra_resposta('resp6','chevron6')">O que acontece se o bolo for danificado durante o
+                transporte?</span>
+            <div class="resposta escondida" id="resp6">
+                <p>
+                    Garantimos embalagens seguras para transporte. Caso haja algum problema, pedimos que entre em
+                    contato imediatamente.</p>
+            </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        <div class="pergunta">
+            <img src="IMG\chevron.png" id="chevron7" class="chevron" onClick="Mostra_resposta('resp7', 'chevron7')">
+            <span onClick="Mostra_resposta('resp7','chevron7')">Vocês fazem cupcakes ou outros doces para acompanhar o
+                bolo?</span>
+            <div class="resposta escondida" id="resp7">
+                <p>
+                    Sim, além dos bolos, fazemos cupcakes, mini bolos, docinhos e sobremesas.</p>
+            </div>
+        </div>
+        </div>
+    </section>
+    <section class="sections">
+        <div class="titulo" id="faleconosco">Fale Conosco</div>
+        <p id="opiniao">Queremos ouvir sua opinião! Deixe-nos uma mensagem e responderemos assim que possível.</p>
+        <fieldset>
+            <div id="txbs">
+                <input type="text" class="smalltxb" placeholder="Nome">
+                <input type="text" class="smalltxb" id="txbemail" placeholder="Email">
+            </div>
+            <br>
+            <textarea id="bigtxb" placeholder="Escreva aqui sua mensagem."></textarea>
+            <br>
+            <input type="submit" value="ENVIAR">
+        </fieldset>
+    </section>
+
+    <footer>
+        <div><img src="IMG/Logos/cakechase logo simple dark.png" id="footerlogo"></div>
+        <div>
+            <p>(11) 93279-5288</p>
+            <a href="">@cakechase99</a>
+            <p>Rua Guaipá, 678 - Vila Leopoldina, São Paulo - SP</p>
+        </div>
+        <div><a href="" class="footerlinks">Sobre Nós</a><br>
+            <a href="" class="footerlinks">Localização</a><br>
+            <a href="" class="footerlinks">Galeria</a><br>
+            <a href="" class="footerlinks">FAQ</a><br>
+            <a href="" class="footerlinks">Fale Conosco</a>
+        </div>
+    </footer>
+    <div id="design">Design por: Loopstack Tech Solutions ©</div>
+    <a href="#top"><button><img src="IMG/arrow.png" id="icon"></button></a>
+</body>
+
+</html>
