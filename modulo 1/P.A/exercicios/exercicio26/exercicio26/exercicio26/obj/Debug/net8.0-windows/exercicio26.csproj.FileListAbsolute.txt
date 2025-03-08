@@ -32,3 +32,6 @@ F:\1A-MODULAR\HALISSON2\P.A\exercicios\exercicio26\exercicio26\exercicio26\obj\D
 F:\1A-MODULAR\HALISSON2\P.A\exercicios\exercicio26\exercicio26\exercicio26\obj\Debug\net8.0-windows\exercicio26.genruntimeconfig.cache
 F:\1A-MODULAR\HALISSON2\P.A\exercicios\exercicio26\exercicio26\exercicio26\obj\Debug\net8.0-windows\ref\exercicio26.dll
 F:\1A-MODULAR\HALISSON2\P.A\exercicios\exercicio26\exercicio26\exercicio26\obj\Debug\net8.0-windows\exercicio26.Properties.Resources.resources
+C:\Projetos\Estudos\atividades-etec\modulo 1\P.A\exercicios\exercicio26\exercicio26\exercicio26\obj\Debug\net8.0-windows\exercicio26.dll
+C:\Projetos\Estudos\atividades-etec\modulo 1\P.A\exercicios\exercicio26\exercicio26\exercicio26\obj\Debug\net8.0-windows\refint\exercicio26.dll
+C:\Projetos\Estudos\atividades-etec\modulo 1\P.A\exercicios\exercicio26\exercicio26\exercicio26\obj\Debug\net8.0-windows\exercicio26.pdb

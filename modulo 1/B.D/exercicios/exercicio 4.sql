@@ -1,23 +1,32 @@
-create database dbmaria;
+-- Criando o banco de dados chamado "dbmaria"
+CREATE DATABASE dbmaria;
 
-use dbmaria;
+-- Selecionando o banco de dados para uso
+USE dbmaria;
 
-create table tbProdutos(
-idProd int primary key not null,
-nomeProd char (50) not null,
-Qtd int ,
-DataValidade date not null,
-Preço smallmoney not null
+-- Criando a tabela "tbProdutos" para armazenar informações dos produtos
+CREATE TABLE tbProdutos (
+    idProd INT PRIMARY KEY NOT NULL, -- Identificador único do produto (chave primária)
+    nomeProd CHAR(50) NOT NULL, -- Nome do produto (não pode ser nulo)
+    Qtd INT, -- Quantidade do produto (pode ser nula)
+    DataValidade DATE NOT NULL, -- Data de validade do produto (obrigatória)
+    Preço SMALLMONEY NOT NULL -- Preço do produto (obrigatório)
 );
 
-alter table tbProdutos add Peso decimal (10,2);
+-- Adicionando a coluna "Peso" à tabela, com até 10 dígitos e 2 casas decimais
+ALTER TABLE tbProdutos ADD Peso DECIMAL(10,2);
 
-alter table tbProdutos add Cor char (50);
+-- Adicionando a coluna "Cor" à tabela (que será removida depois)
+ALTER TABLE tbProdutos ADD Cor CHAR(50);
 
-alter table tbProdutos add Maeca char (50) not null;
+-- Adicionando a coluna "Maeca" (provavelmente um erro de digitação, deveria ser "Marca")
+ALTER TABLE tbProdutos ADD Maeca CHAR(50) NOT NULL;
 
-alter table tbProdutos drop column cor;
+-- Removendo a coluna "Cor" da tabela
+ALTER TABLE tbProdutos DROP COLUMN Cor;
 
-alter table tbProdutos alter column peso decimal (10,2) not null;
+-- Alterando a coluna "Peso" para que não aceite valores nulos
+ALTER TABLE tbProdutos ALTER COLUMN Peso DECIMAL(10,2) NOT NULL;
 
-alter table tbProdutos drop column DataValidade;
+-- Removendo a coluna "DataValidade" da tabela
+ALTER TABLE tbProdutos DROP COLUMN DataValidade;

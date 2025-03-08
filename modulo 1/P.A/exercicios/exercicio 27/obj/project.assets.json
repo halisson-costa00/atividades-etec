@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Projetos\\Estudos\\HALISSON2 (1)\\HALISSON2\\P.A\\exercicios\\exercicio 27\\Ex27.csproj",
+      "projectUniqueName": "C:\\Projetos\\Estudos\\atividades-etec\\modulo 1\\P.A\\exercicios\\exercicio 27\\Ex27.csproj",
       "projectName": "Ex27",
-      "projectPath": "C:\\Projetos\\Estudos\\HALISSON2 (1)\\HALISSON2\\P.A\\exercicios\\exercicio 27\\Ex27.csproj",
+      "projectPath": "C:\\Projetos\\Estudos\\atividades-etec\\modulo 1\\P.A\\exercicios\\exercicio 27\\Ex27.csproj",
       "packagesPath": "C:\\Users\\Acer\\.nuget\\packages\\",
-      "outputPath": "C:\\Projetos\\Estudos\\HALISSON2 (1)\\HALISSON2\\P.A\\exercicios\\exercicio 27\\obj\\",
+      "outputPath": "C:\\Projetos\\Estudos\\atividades-etec\\modulo 1\\P.A\\exercicios\\exercicio 27\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

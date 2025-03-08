@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- Define a codificação dos caracteres para suportar acentos e caracteres especiais -->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Garante que a página seja responsiva em dispositivos móveis -->
+
+    <title>IMC</title>
+    <!-- Define o título da página (aparece na aba do navegador) -->
+
+    <style>
+      /* Estilização da página */
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+        /* Define a fonte do texto */
+        background: linear-gradient(to right, rgb(30, 125, 198), rgb(110, 25, 140));
+        /* Define um fundo degradê azul para roxo */
+        text-align: center;
+        /* Centraliza os textos na página */
+        color: #fff;
+        /* Define a cor do texto como branco */
+      }
+
+      .container {
+        /* Estilização do container principal */
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        /* Centraliza o container na tela */
+        width: 50%;
+        background-color: rgba(0, 0, 0, 0.5);
+        /* Adiciona um fundo semi-transparente */
+        padding: 1em;
+        border-radius: 10px;
+        /* Arredonda as bordas */
+      }
+
+      button {
+        /* Estilização dos botões */
+        background-color: slateblue;
+        /* Define a cor de fundo */
+        color: #fff;
+        /* Define a cor do texto */
+        border: none;
+        /* Remove a borda */
+        padding: 1em;
+        border-radius: 10px;
+        /* Arredonda as bordas */
+        box-shadow: 1px 1px 6px black;
+        /* Adiciona uma sombra ao botão */
+        cursor: pointer;
+        /* Muda o cursor para indicar que é clicável */
+      }
+
+      button:hover {
+        /* Muda a cor do botão ao passar o mouse */
+        background-color: steelblue;
+      }
+
+      .final-stap,
+      .second-stap {
+        display: none;
+        /* Oculta a segunda e terceira etapas inicialmente */
+      }
+
+      input {
+        /* Estilização dos campos de entrada */
+        padding: 5px;
+        border-radius: 5px;
+        border: none;
+        outline: none;
+        /* Remove a borda de destaque ao clicar no campo */
+      }
+
+      #resultado {
+        /* Estilização do texto do resultado */
+        font-size: 25px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Vamos Descobrir seu IMC</h1>
+    <!-- Título principal da página -->
+
+    <div class="container">
+      <!-- Container que agrupa todas as etapas -->
+
+      <div class="first-stap">
+        <!-- Primeira etapa: tela inicial -->
+        <p>Clique no botão para calcular seu IMC</p>
+        <button onclick="go(1,2)">Iniciar</button>
+        <!-- Botão para iniciar o cálculo do IMC -->
+      </div>
+
+      <div class="second-stap">
+        <!-- Segunda etapa: entrada de dados -->
+        <h3>Calculadora IMC</h3>
+        <hr />
+        <!-- Linha horizontal para separação -->
+
+        <label for="peso">Digite seu peso (kg):</label>
+        <input type="number" placeholder="Ex: 70" id="peso" />
+        <!-- Campo para inserir o peso -->
+
+        <br /><br />
+
+        <label for="altura">Digite sua altura (m):</label>
+        <input type="number" placeholder="Ex: 1.75" id="altura" />
+        <!-- Campo para inserir a altura -->
+
+        <br /><br />
+
+        <button onclick="validate()">Calcular</button>
+        <!-- Botão para calcular o IMC -->
+      </div>
+
+      <div class="final-stap">
+        <!-- Terceira etapa: exibição do resultado -->
+        <h3>Resultado!</h3>
+        <p id="resultado"></p>
+        <!-- Parágrafo onde será exibido o resultado -->
+
+        <button onclick="go(3,2)">Calcular Novamente</button>
+        <!-- Botão para refazer o cálculo -->
+
+        <button onclick="go(3,1)">Finalizar</button>
+        <!-- Botão para voltar ao início -->
+      </div>
+    </div>
+
+    <script>
+      // Captura os elementos das etapas do formulário
+      const firstDiv = document.querySelector(".first-stap");
+      const secondDiv = document.querySelector(".second-stap");
+      const finalDiv = document.querySelector(".final-stap");
+
+      function go(currentStep, nextStep) {
+        // Alterna entre as etapas do formulário
+
+        let dNone, dBlock;
+
+        // Define qual etapa será ocultada
+        if (currentStep === 1) {
+          dNone = firstDiv;
+        } else if (currentStep === 2) {
+          dNone = secondDiv;
+        } else {
+          dNone = finalDiv;
+        }
+        dNone.style.display = "none"; // Esconde a etapa atual
+
+        // Define qual etapa será exibida
+        if (nextStep === 1) {
+          dBlock = firstDiv;
+        } else if (nextStep === 2) {
+          dBlock = secondDiv;
+        } else {
+          dBlock = finalDiv;
+        }
+        dBlock.style.display = "block"; // Exibe a próxima etapa
+      }
+
+      function validate() {
+        // Função para validar os campos e calcular o IMC
+
+        const peso = document.getElementById("peso");
+        const altura = document.getElementById("altura");
+
+        // Remove possíveis bordas vermelhas de erro
+        peso.style.border = "none";
+        altura.style.border = "none";
+
+        // Verifica se os campos estão preenchidos
+        if (!peso.value || !altura.value) {
+          if (!peso.value && !altura.value) {
+            peso.style.border = "1px solid red";
+            altura.style.border = "1px solid red";
+          } else if (!peso.value) {
+            peso.style.border = "1px solid red";
+          } else {
+            altura.style.border = "1px solid red";
+          }
+          return; // Sai da função caso haja erro
+        }
+
+        // Converte os valores para número e calcula o IMC
+        let pesoValor = parseFloat(peso.value);
+        let alturaValor = parseFloat(altura.value);
+        let imc = pesoValor / (alturaValor * alturaValor);
+        const result = document.getElementById("resultado");
+
+        // Define a classificação do IMC
+        if (imc < 18.5) {
+          result.style.color = "yellow";
+          result.innerHTML = "Magreza | Obesidade: 0";
+        } else if (imc >= 18.5 && imc < 25) {
+          result.style.color = "SpringGreen";
+          result.innerHTML = "Normal | Obesidade: 0";
+        } else if (imc >= 25 && imc < 30) {
+          result.style.color = "red";
+          result.innerHTML = "Sobrepeso | Obesidade: I";
+        } else if (imc >= 30 && imc < 40) {
+          result.style.color = "red";
+          result.innerHTML = "Obesidade | Obesidade: II";
+        } else {
+          result.style.color = "red";
+          result.innerHTML = "Obesidade Grave | Obesidade: III";
+        }
+
+        // Avança para a etapa do resultado
+        go(2, 3);
+      }
+    </script>
+  </body>
+</html>

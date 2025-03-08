@@ -1,14 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Projetos\\Estudos\\HALISSON2 (1)\\HALISSON2\\P.A\\exercicios\\Exercicio 21\\",
+  "WorkspaceRootPath": "C:\\Projetos\\Estudos\\atividades-etec\\modulo 1\\P.A\\exercicios\\Exercicio 21\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E521B36D-1502-48A3-ACA2-3DD65C49F919}|Exercicio 21\\Exercicio 21.csproj|c:\\projetos\\estudos\\halisson2 (1)\\halisson2\\p.a\\exercicios\\exercicio 21\\exercicio 21\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E521B36D-1502-48A3-ACA2-3DD65C49F919}|Exercicio 21\\Exercicio 21.csproj|solutionrelative:exercicio 21\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Projetos\\Estudos\\atividades-etec\\modulo 1\\P.A\\exercicios\\Exercicio 21\\Exercicio 21\\Form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Exercicio 21\\Form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E521B36D-1502-48A3-ACA2-3DD65C49F919}|Exercicio 21\\Exercicio 21.csproj|c:\\projetos\\estudos\\halisson2 (1)\\halisson2\\p.a\\exercicios\\exercicio 21\\exercicio 21\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{E521B36D-1502-48A3-ACA2-3DD65C49F919}|Exercicio 21\\Exercicio 21.csproj|solutionrelative:exercicio 21\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Projetos\\Estudos\\atividades-etec\\modulo 1\\P.A\\exercicios\\Exercicio 21\\exercicio 21\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:exercicio 21\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -36,11 +36,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Projetos\\Estudos\\HALISSON2 (1)\\HALISSON2\\P.A\\exercicios\\Exercicio 21\\Exercicio 21\\Form1.cs",
+              "DocumentMoniker": "C:\\Projetos\\Estudos\\atividades-etec\\modulo 1\\P.A\\exercicios\\Exercicio 21\\Exercicio 21\\Form1.cs",
               "RelativeDocumentMoniker": "Exercicio 21\\Form1.cs",
-              "ToolTip": "C:\\Projetos\\Estudos\\HALISSON2 (1)\\HALISSON2\\P.A\\exercicios\\Exercicio 21\\Exercicio 21\\Form1.cs",
+              "ToolTip": "C:\\Projetos\\Estudos\\atividades-etec\\modulo 1\\P.A\\exercicios\\Exercicio 21\\Exercicio 21\\Form1.cs",
               "RelativeToolTip": "Exercicio 21\\Form1.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAIwCIAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-01T20:22:05.378Z",
               "EditorCaption": ""
@@ -49,13 +49,12 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "C:\\Projetos\\Estudos\\HALISSON2 (1)\\HALISSON2\\P.A\\exercicios\\Exercicio 21\\Exercicio 21\\Form1.cs",
+              "DocumentMoniker": "C:\\Projetos\\Estudos\\atividades-etec\\modulo 1\\P.A\\exercicios\\Exercicio 21\\Exercicio 21\\Form1.cs",
               "RelativeDocumentMoniker": "Exercicio 21\\Form1.cs",
-              "ToolTip": "C:\\Projetos\\Estudos\\HALISSON2 (1)\\HALISSON2\\P.A\\exercicios\\Exercicio 21\\Exercicio 21\\Form1.cs [Design]",
+              "ToolTip": "C:\\Projetos\\Estudos\\atividades-etec\\modulo 1\\P.A\\exercicios\\Exercicio 21\\Exercicio 21\\Form1.cs [Design]",
               "RelativeToolTip": "Exercicio 21\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-01T20:20:33.461Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-02-01T20:20:33.461Z"
             }
           ]
         }

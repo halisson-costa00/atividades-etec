@@ -8,3 +8,10 @@ F:\1A-MODULAR\HALISSON2\P.A\exercicios\exercicio 27\exercicio 27\obj\Debug\exerc
 F:\1A-MODULAR\HALISSON2\P.A\exercicios\exercicio 27\exercicio 27\obj\Debug\exercicio 27.csproj.CoreCompileInputs.cache
 F:\1A-MODULAR\HALISSON2\P.A\exercicios\exercicio 27\exercicio 27\obj\Debug\exercicio 27.exe
 F:\1A-MODULAR\HALISSON2\P.A\exercicios\exercicio 27\exercicio 27\obj\Debug\exercicio 27.pdb
+C:\Projetos\Estudos\atividades-etec\modulo 1\P.A\exercicios\exercicio 28\exercicio 27\obj\Debug\exercicio 27.csproj.AssemblyReference.cache
+C:\Projetos\Estudos\atividades-etec\modulo 1\P.A\exercicios\exercicio 28\exercicio 27\obj\Debug\exercicio_27.FIBONACCI.resources
+C:\Projetos\Estudos\atividades-etec\modulo 1\P.A\exercicios\exercicio 28\exercicio 27\obj\Debug\exercicio_27.Properties.Resources.resources
+C:\Projetos\Estudos\atividades-etec\modulo 1\P.A\exercicios\exercicio 28\exercicio 27\obj\Debug\exercicio 27.csproj.GenerateResource.cache
+C:\Projetos\Estudos\atividades-etec\modulo 1\P.A\exercicios\exercicio 28\exercicio 27\obj\Debug\exercicio 27.csproj.CoreCompileInputs.cache
+C:\Projetos\Estudos\atividades-etec\modulo 1\P.A\exercicios\exercicio 28\exercicio 27\obj\Debug\exercicio 27.exe
+C:\Projetos\Estudos\atividades-etec\modulo 1\P.A\exercicios\exercicio 28\exercicio 27\obj\Debug\exercicio 27.pdb

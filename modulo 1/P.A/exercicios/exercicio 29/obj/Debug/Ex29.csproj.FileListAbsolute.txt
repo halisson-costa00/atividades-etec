@@ -8,3 +8,13 @@ F:\1A-MODULAR\VINICIUS\PA\Exs C#\Forms\Ex29\obj\Debug\Ex29.csproj.GenerateResour
 F:\1A-MODULAR\VINICIUS\PA\Exs C#\Forms\Ex29\obj\Debug\Ex29.csproj.CoreCompileInputs.cache
 F:\1A-MODULAR\VINICIUS\PA\Exs C#\Forms\Ex29\obj\Debug\Ex29.exe
 F:\1A-MODULAR\VINICIUS\PA\Exs C#\Forms\Ex29\obj\Debug\Ex29.pdb
+C:\Projetos\Estudos\atividades-etec\modulo 1\P.A\exercicios\exercicio 29\bin\Debug\Ex29.exe.config
+C:\Projetos\Estudos\atividades-etec\modulo 1\P.A\exercicios\exercicio 29\bin\Debug\Ex29.exe
+C:\Projetos\Estudos\atividades-etec\modulo 1\P.A\exercicios\exercicio 29\bin\Debug\Ex29.pdb
+C:\Projetos\Estudos\atividades-etec\modulo 1\P.A\exercicios\exercicio 29\obj\Debug\Ex29.csproj.AssemblyReference.cache
+C:\Projetos\Estudos\atividades-etec\modulo 1\P.A\exercicios\exercicio 29\obj\Debug\Ex29.Form1.resources
+C:\Projetos\Estudos\atividades-etec\modulo 1\P.A\exercicios\exercicio 29\obj\Debug\Ex29.Properties.Resources.resources
+C:\Projetos\Estudos\atividades-etec\modulo 1\P.A\exercicios\exercicio 29\obj\Debug\Ex29.csproj.GenerateResource.cache
+C:\Projetos\Estudos\atividades-etec\modulo 1\P.A\exercicios\exercicio 29\obj\Debug\Ex29.csproj.CoreCompileInputs.cache
+C:\Projetos\Estudos\atividades-etec\modulo 1\P.A\exercicios\exercicio 29\obj\Debug\Ex29.exe
+C:\Projetos\Estudos\atividades-etec\modulo 1\P.A\exercicios\exercicio 29\obj\Debug\Ex29.pdb

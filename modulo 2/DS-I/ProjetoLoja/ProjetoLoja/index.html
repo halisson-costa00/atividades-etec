@@ -1,0 +1,105 @@
+<!DOCTYPE html> 
+<html lang="pt-br"> 
+  <head> 
+    <!-- Definindo o charset para UTF-8 e a visualização adequada em dispositivos móveis -->
+    <meta charset="UTF-8">     
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Chamando o CSS externo para estilização da página -->
+    <link rel="stylesheet" href="./src/css/estilo.css"> 
+    
+    <!-- Chamando o SweetAlert2 para usar notificações em pop-up -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script> 
+    
+    <!-- Título da página que aparecerá na aba do navegador -->
+    <title>Loja de Esportes</title> 
+  </head> 
+  
+  <body> 
+    <div id="container"> 
+      <header> 
+        <!-- Cabeçalho da página com o nome da loja -->
+        <h1>Loja de Produtos Esportivos</h1> 
+      </header> 
+      
+      <section class="section"> 
+        <!-- Seção para escolher o produto -->
+        <h2>Escolha seu produto</h2> 
+        <div class="produto-options"> 
+          <!-- Cada produto é representado por um artigo com o preço dentro do atributo data-preco -->
+          <article class="item" data-preco="295"> 
+            <h3>Chuteira de Futsal</h3> 
+            <p>R$295,00</p> 
+          </article> 
+          
+          <article class="item" data-preco="250"> 
+            <h3>Luva de Futebol</h3> 
+            <p>R$250,00</p> 
+          </article> 
+          
+          <article class="item" data-preco="150"> 
+            <h3>Calção de Futebol</h3> 
+            <p>R$150,00</p> 
+          </article> 
+        </div> 
+      </section> 
+      
+      <section class="section"> 
+        <!-- Seção para escolher acessórios -->
+        <h2>Acessórios</h2> 
+        <div class="acessorios-options"> 
+          <!-- Cada acessório é representado por um artigo com o preço -->
+          <article class="item" data-preco="198"> 
+            <h3>Luva de Futebol</h3> 
+            <p>R$198,00</p> 
+          </article> 
+          
+          <article class="item" data-preco="200"> 
+            <h3>Mochila de Treino</h3> 
+            <p>R$200,00</p> 
+          </article> 
+          
+          <article class="item" data-preco="50"> 
+            <h3>Meião de Futebol</h3> 
+            <p>R$50,00</p> 
+          </article> 
+        </div> 
+      </section> 
+      
+      <section class="section"> 
+        <!-- Seção para inserir o endereço de entrega -->
+        <h2>Entrega</h2> 
+        <input type="text" placeholder="Endereço de Entrega" id="endereco"> 
+      </section> 
+      
+      <section class="section"> 
+        <!-- Seção para selecionar a forma de pagamento -->
+        <h2>Forma de Pagamento</h2> 
+        <div class="pagamento-options"> 
+          <!-- Opções de pagamento via input de tipo radio -->
+          <label> 
+            <input type="radio" name="pagamento" value="credito">Cartão de crédito 
+          </label> 
+          <label> 
+            <input type="radio" name="pagamento" value="debito">Cartão de Débito 
+          </label> 
+          <label> 
+            <input type="radio" name="pagamento" value="dinheiro">Dinheiro 
+          </label> 
+          <label> 
+            <input type="radio" name="pagamento" value="pix">Pix 
+          </label> 
+        </div> 
+      </section> 
+      
+      <footer> 
+        <!-- Rodapé com total e botão para finalizar o pedido -->
+        <div id="total">Total: R$ 0,00</div> 
+        <button onclick="finalizarPedido()" id="loadingBtn">Fazer Pedido</button> 
+      </footer> 
+    </div> 
+    
+    <!-- Chamando o arquivo JavaScript externo onde será implementada a lógica de funcionamento -->
+    <script src="./src/js/script.js"></script> 
+  </body> 
+</html>

@@ -31,3 +31,14 @@ F:\1A-MODULAR\HALISSON2\P.A\exercicios\exercicio 22\exercicio 22\obj\Debug\net8.
 F:\1A-MODULAR\HALISSON2\P.A\exercicios\exercicio 22\exercicio 22\obj\Debug\net8.0-windows\exercicio 22.pdb
 F:\1A-MODULAR\HALISSON2\P.A\exercicios\exercicio 22\exercicio 22\obj\Debug\net8.0-windows\exercicio 22.genruntimeconfig.cache
 F:\1A-MODULAR\HALISSON2\P.A\exercicios\exercicio 22\exercicio 22\obj\Debug\net8.0-windows\ref\exercicio 22.dll
+C:\Projetos\Estudos\atividades-etec\modulo 1\P.A\exercicios\exercicio 22\exercicio 22\obj\Debug\net8.0-windows\exercicio_22.Form1.resources
+C:\Projetos\Estudos\atividades-etec\modulo 1\P.A\exercicios\exercicio 22\exercicio 22\obj\Debug\net8.0-windows\exercicio_22.Properties.Resources.resources
+C:\Projetos\Estudos\atividades-etec\modulo 1\P.A\exercicios\exercicio 22\exercicio 22\obj\Debug\net8.0-windows\exercicio 22.csproj.GenerateResource.cache
+C:\Projetos\Estudos\atividades-etec\modulo 1\P.A\exercicios\exercicio 22\exercicio 22\obj\Debug\net8.0-windows\exercicio 22.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projetos\Estudos\atividades-etec\modulo 1\P.A\exercicios\exercicio 22\exercicio 22\obj\Debug\net8.0-windows\exercicio 22.AssemblyInfoInputs.cache
+C:\Projetos\Estudos\atividades-etec\modulo 1\P.A\exercicios\exercicio 22\exercicio 22\obj\Debug\net8.0-windows\exercicio 22.AssemblyInfo.cs
+C:\Projetos\Estudos\atividades-etec\modulo 1\P.A\exercicios\exercicio 22\exercicio 22\obj\Debug\net8.0-windows\exercicio 22.csproj.CoreCompileInputs.cache
+C:\Projetos\Estudos\atividades-etec\modulo 1\P.A\exercicios\exercicio 22\exercicio 22\obj\Debug\net8.0-windows\exercicio 22.sourcelink.json
+C:\Projetos\Estudos\atividades-etec\modulo 1\P.A\exercicios\exercicio 22\exercicio 22\obj\Debug\net8.0-windows\exercicio 22.dll
+C:\Projetos\Estudos\atividades-etec\modulo 1\P.A\exercicios\exercicio 22\exercicio 22\obj\Debug\net8.0-windows\refint\exercicio 22.dll
+C:\Projetos\Estudos\atividades-etec\modulo 1\P.A\exercicios\exercicio 22\exercicio 22\obj\Debug\net8.0-windows\exercicio 22.pdb

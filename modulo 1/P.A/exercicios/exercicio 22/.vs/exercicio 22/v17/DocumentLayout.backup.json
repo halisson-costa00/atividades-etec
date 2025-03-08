@@ -1,14 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Projetos\\exercicio 22\\",
+  "WorkspaceRootPath": "C:\\Projetos\\Estudos\\atividades-etec\\modulo 1\\P.A\\exercicios\\exercicio 22\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B63E74A8-62BB-4900-905E-4052573463E1}|exercicio 22\\exercicio 22.csproj|c:\\projetos\\exercicio 22\\exercicio 22\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B63E74A8-62BB-4900-905E-4052573463E1}|exercicio 22\\exercicio 22.csproj|solutionrelative:exercicio 22\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Projetos\\Estudos\\atividades-etec\\modulo 1\\P.A\\exercicios\\exercicio 22\\exercicio 22\\Form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:exercicio 22\\Form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B63E74A8-62BB-4900-905E-4052573463E1}|exercicio 22\\exercicio 22.csproj|c:\\projetos\\exercicio 22\\exercicio 22\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B63E74A8-62BB-4900-905E-4052573463E1}|exercicio 22\\exercicio 22.csproj|solutionrelative:exercicio 22\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Projetos\\Estudos\\atividades-etec\\modulo 1\\P.A\\exercicios\\exercicio 22\\exercicio 22\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:exercicio 22\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,17 +18,29 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Projetos\\exercicio 22\\exercicio 22\\Form1.cs",
+              "DocumentMoniker": "C:\\Projetos\\Estudos\\atividades-etec\\modulo 1\\P.A\\exercicios\\exercicio 22\\exercicio 22\\Form1.cs",
               "RelativeDocumentMoniker": "exercicio 22\\Form1.cs",
-              "ToolTip": "C:\\Projetos\\exercicio 22\\exercicio 22\\Form1.cs",
+              "ToolTip": "C:\\Projetos\\Estudos\\atividades-etec\\modulo 1\\P.A\\exercicios\\exercicio 22\\exercicio 22\\Form1.cs",
               "RelativeToolTip": "exercicio 22\\Form1.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAIAxwBIAAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABMAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-08T03:08:00.844Z",
               "EditorCaption": ""
@@ -36,14 +48,13 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Form1.cs [Projeto]",
-              "DocumentMoniker": "C:\\Projetos\\exercicio 22\\exercicio 22\\Form1.cs",
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Projetos\\Estudos\\atividades-etec\\modulo 1\\P.A\\exercicios\\exercicio 22\\exercicio 22\\Form1.cs",
               "RelativeDocumentMoniker": "exercicio 22\\Form1.cs",
-              "ToolTip": "C:\\Projetos\\exercicio 22\\exercicio 22\\Form1.cs [Projeto]",
-              "RelativeToolTip": "exercicio 22\\Form1.cs [Projeto]",
+              "ToolTip": "C:\\Projetos\\Estudos\\atividades-etec\\modulo 1\\P.A\\exercicios\\exercicio 22\\exercicio 22\\Form1.cs [Design]",
+              "RelativeToolTip": "exercicio 22\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-08T03:03:49.891Z",
-              "EditorCaption": " [Projeto]"
+              "WhenOpened": "2024-10-08T03:03:49.891Z"
             }
           ]
         }

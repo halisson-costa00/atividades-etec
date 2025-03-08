@@ -30,3 +30,6 @@ F:\1A-MODULAR\VINICIUS\PA\Exs C#\Forms\Ex27\obj\Debug\net8.0-windows\refint\Ex27
 F:\1A-MODULAR\VINICIUS\PA\Exs C#\Forms\Ex27\obj\Debug\net8.0-windows\Ex27.pdb
 F:\1A-MODULAR\VINICIUS\PA\Exs C#\Forms\Ex27\obj\Debug\net8.0-windows\Ex27.genruntimeconfig.cache
 F:\1A-MODULAR\VINICIUS\PA\Exs C#\Forms\Ex27\obj\Debug\net8.0-windows\ref\Ex27.dll
+C:\Projetos\Estudos\atividades-etec\modulo 1\P.A\exercicios\exercicio 27\obj\Debug\net8.0-windows\Ex27.dll
+C:\Projetos\Estudos\atividades-etec\modulo 1\P.A\exercicios\exercicio 27\obj\Debug\net8.0-windows\refint\Ex27.dll
+C:\Projetos\Estudos\atividades-etec\modulo 1\P.A\exercicios\exercicio 27\obj\Debug\net8.0-windows\Ex27.pdb

@@ -1,58 +1,47 @@
---Halisson
+-- Criando o banco de dados "dbEscola"
+CREATE DATABASE dbEscola;
 
-create DataBase dbEscola;
+-- Selecionando o banco de dados para uso
+USE dbEscola;
 
-use dbEscola;
-
-create table tbCliente(
-IdCli int primary key not null,
-
-NomeCliente char (50) not null ,
-
-NumEnd int,
-
-DataCadastro datetime  default current_timestamp,
-
+-- Criando a tabela "tbCliente" para armazenar informações dos clientes
+CREATE TABLE tbCliente (
+    IdCli INT PRIMARY KEY NOT NULL, -- Identificador único do cliente (chave primária)
+    NomeCliente CHAR(50) NOT NULL, -- Nome do cliente (obrigatório)
+    NumEnd INT, -- Número do endereço do cliente (pode ser nulo)
+    DataCadastro DATETIME DEFAULT CURRENT_TIMESTAMP -- Data de cadastro, preenchida automaticamente
 );
 
-alter table tbcliente add CPF bigint unique not null;
+-- Adicionando a coluna "CPF" na tabela "tbCliente" com restrição de unicidade
+ALTER TABLE tbCliente ADD CPF BIGINT UNIQUE NOT NULL;
 
-alter table tbcliente add CEP int;
+-- Adicionando a coluna "CEP" na tabela "tbCliente"
+ALTER TABLE tbCliente ADD CEP INT;
 
-create DataBAse dbEmpresa;
+-- Criando o banco de dados "dbEmpresa"
+CREATE DATABASE dbEmpresa;
 
-use dbEscola;
+-- Voltando para o banco "dbEscola"
+USE dbEscola;
 
- create table tbEndeço (
- 
- CEP int not null primary key ,
+-- Criando a tabela "tbEndereço" para armazenar os endereços
+CREATE TABLE tbEndereco ( -- Corrigido o nome da tabela para evitar erros futuros
+    CEP INT NOT NULL PRIMARY KEY, -- CEP como identificador único (chave primária)
+    Logradouro CHAR(250) NOT NULL, -- Nome da rua, avenida, etc. (obrigatório)
+    IdUF TINYINT -- Código do estado (pode ser nulo)
+);
 
- Logradouro char (250) not null,
+-- Criando a chave estrangeira ligando "tbCliente" à "tbEndereco" através do CEP
+ALTER TABLE tbCliente ADD CONSTRAINT fk_CEP_tbCliente FOREIGN KEY (CEP) REFERENCES tbEndereco (CEP);
 
- IdUF tinyint 
+-- Renomeando a tabela "tbEndeço" para "tbEndereço" (corrigindo erro de digitação)
+EXEC sp_rename 'tbEndeço', 'tbEndereco';
 
- );
+-- Exibindo a estrutura da tabela "tbCliente"
+SP_HELP tbCliente;
 
-alter table tbCliente add constraint fk_CEP_tbCliente foreign key (CEP) references tbEndeço (CEP);
+-- Exibindo os bancos de dados disponíveis
+SP_DATABASES;
 
-exec sp_rename 'tbendeço', 'tbEndereço';
-
-sp_help tbCliente;
-
-/* lembra os códigos de cabeça
-lógica de programação
-memorizar as sintaxex*/
-
-sp_DataBases;
-
-drop DataBase dbEmpresa;
-
-
-
-
-
-
-
-
-
-
+-- Removendo o banco de dados "dbEmpresa" (CUIDADO: isso apagará todas as tabelas dentro dele)
+DROP DATABASE dbEmpresa;

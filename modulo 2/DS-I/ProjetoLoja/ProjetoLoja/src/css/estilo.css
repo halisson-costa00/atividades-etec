@@ -1,0 +1,133 @@
+/* Definição de variáveis de cores para facilitar a manutenção */
+:root {
+    --fontColor1: #000; /* Cor da fonte principal (preto) */
+    --fontColor2: #fff; /* Cor da fonte secundária (branco) */
+    --fontColor3: #ef4dbc; /* Cor para destaque (roxo) */
+    --bgColor1: #00ffff; /* Cor do fundo principal (ciano) */
+    --bgColor2: #e92389; /* Cor de fundo de destaque (rosa) */
+    --bgColor3: #6f0d39; /* Cor de fundo (vermelho escuro) */
+    --bgColor4: #23ea2a; /* Cor de fundo de destaque adicional (verde limão) */
+}
+
+/* Reset de estilos para garantir consistência entre os navegadores */
+* {
+    padding: 0; /* Remove qualquer preenchimento extra */
+    margin: 0; /* Remove as margens padrões */
+    box-sizing: border-box; /* Facilita o controle de largura e altura */
+}
+
+/* Estilização do corpo da página */
+body {
+    padding: 20px; /* Espaçamento interno ao redor da página */
+    background: var(--bgColor1); /* Fundo ciano para o corpo */
+}
+
+/* Estilização do contêiner centralizado */
+#container {
+    max-width: 800px; /* Largura máxima do contêiner */
+    margin: 0 auto; /* Centraliza o contêiner horizontalmente */
+    padding: 20px; /* Preenchimento interno */
+    color: var(--fontColor2); /* Cor da fonte (branco) */
+    background: var(--fontColor1); /* Fundo branco para o contêiner */
+    border-radius: 20px; /* Bordas arredondadas */
+}
+
+/* Estilização do cabeçalho */
+header {
+    color: var(--fontColor3); /* Cor roxa para o título */
+    font-size: 1.5rem; /* Tamanho da fonte do cabeçalho */
+    margin-bottom: 20px; /* Espaçamento abaixo do cabeçalho */
+    text-align: center; /* Alinha o texto ao centro */
+}
+
+/* Estilização das seções */
+.section {
+    margin-bottom: 20px; /* Espaço abaixo de cada seção */
+    padding: 15px; /* Preenchimento interno */
+    border: 1px solid #ddd; /* Borda cinza clara ao redor */
+    border-radius: 5px; /* Bordas arredondadas */
+}
+
+/* Estilização das opções de produto e acessórios com grid responsivo */
+.produto-options,
+.acessorios-options {
+    display: grid; /* Usando grid layout */
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Tamanho flexível para as colunas */
+    gap: 10px; /* Espaço entre os itens */
+}
+
+/* Estilização de cada item nas opções */
+.item {
+    padding: 10px; /* Preenchimento interno */
+    border: 1px solid #eee; /* Borda clara */
+    border-radius: 5px; /* Bordas arredondadas */
+    cursor: pointer; /* Cursor de mão indicando que é clicável */
+    transition: 0.3s; /* Efeito suave na transição de cor */
+}
+
+/* Efeito de hover para os itens */
+.item:hover {
+    background: var(--bgColor4); /* Altera a cor de fundo para verde limão ao passar o mouse */
+    color: var(--bgColor3); /* Muda a cor da fonte para roxo */
+}
+
+/* Estilo para os itens selecionados */
+.item.selected {
+    background: var(--bgColor2); /* Cor de fundo rosa para itens selecionados */
+    border-color: var(--bgColor4); /* Borda verde limão */
+    color: var(--fontColor2); /* Cor da fonte branca */
+}
+
+/* Estilização do campo de endereço */
+#endereco {
+    width: 100%; /* Preenche toda a largura disponível */
+    height: 30px; /* Altura do campo */
+    margin-top: 20px; /* Espaçamento acima do campo */
+}
+
+/* Estilo dos rótulos das opções de pagamento */
+.pagamento-options label {
+    display: block; /* Exibe o label como um bloco */
+    margin: 10px 0; /* Espaçamento acima e abaixo */
+}
+
+/* Estilização do botão */
+button {
+    background: var(--bgColor1); /* Cor do fundo (ciano) */
+    width: 50%; /* Largura de 50% */
+    height: 30px; /* Altura do botão */
+    margin-left: 25%; /* Centraliza o botão horizontalmente */
+    border-radius: 10px; /* Bordas arredondadas */
+    cursor: pointer; /* Cursor de mão indicando que é clicável */
+    font-size: 1rem; /* Tamanho da fonte */
+}
+
+/* Efeito de hover no botão */
+button:hover {
+    background: var(--fontColor3); /* Muda a cor de fundo para roxo */
+}
+
+/* Estilização do total no rodapé */
+#total {
+    color: var(--bgColor1); /* Cor do texto (ciano) */
+    font-size: 1.3rem; /* Tamanho maior da fonte */
+    font-weight: 700; /* Fonte em negrito */
+    text-align: right; /* Alinha o texto à direita */
+    margin: 20px 0; /* Espaçamento acima e abaixo */
+}
+
+/* Estilização do rodapé */
+footer {
+    background: transparent; /* Fundo transparente */
+}
+
+/* Estilização do botão de confirmação (presumivelmente em um modal) */
+.swal2-confirm {
+    background-color: #28a745; /* Cor verde para o botão de confirmação */
+    width: 100px; /* Largura do botão */
+    color: #fff; /* Cor da fonte (branco) */
+    border: none; /* Sem borda */
+    padding: 10px 15px; /* Preenchimento interno */
+    border-radius: 30px; /* Bordas arredondadas */
+    cursor: pointer; /* Cursor de mão indicando que é clicável */
+}

@@ -8,3 +8,12 @@ F:\1A-MODULAR\HALISSON2\P.A\exercicios\Exercicio 21\Exercicio 21\obj\Debug\Exerc
 F:\1A-MODULAR\HALISSON2\P.A\exercicios\Exercicio 21\Exercicio 21\obj\Debug\Exercicio 21.csproj.CoreCompileInputs.cache
 F:\1A-MODULAR\HALISSON2\P.A\exercicios\Exercicio 21\Exercicio 21\obj\Debug\Exercicio 21.exe
 F:\1A-MODULAR\HALISSON2\P.A\exercicios\Exercicio 21\Exercicio 21\obj\Debug\Exercicio 21.pdb
+C:\Projetos\Estudos\atividades-etec\modulo 1\P.A\exercicios\Exercicio 21\Exercicio 21\bin\Debug\Exercicio 21.exe.config
+C:\Projetos\Estudos\atividades-etec\modulo 1\P.A\exercicios\Exercicio 21\Exercicio 21\bin\Debug\Exercicio 21.exe
+C:\Projetos\Estudos\atividades-etec\modulo 1\P.A\exercicios\Exercicio 21\Exercicio 21\obj\Debug\Exercicio 21.csproj.AssemblyReference.cache
+C:\Projetos\Estudos\atividades-etec\modulo 1\P.A\exercicios\Exercicio 21\Exercicio 21\obj\Debug\Exercicio_21.form1.resources
+C:\Projetos\Estudos\atividades-etec\modulo 1\P.A\exercicios\Exercicio 21\Exercicio 21\obj\Debug\Exercicio_21.Properties.Resources.resources
+C:\Projetos\Estudos\atividades-etec\modulo 1\P.A\exercicios\Exercicio 21\Exercicio 21\obj\Debug\Exercicio 21.csproj.GenerateResource.cache
+C:\Projetos\Estudos\atividades-etec\modulo 1\P.A\exercicios\Exercicio 21\Exercicio 21\obj\Debug\Exercicio 21.csproj.CoreCompileInputs.cache
+C:\Projetos\Estudos\atividades-etec\modulo 1\P.A\exercicios\Exercicio 21\Exercicio 21\obj\Debug\Exercicio 21.exe
+C:\Projetos\Estudos\atividades-etec\modulo 1\P.A\exercicios\Exercicio 21\Exercicio 21\obj\Debug\Exercicio 21.pdb

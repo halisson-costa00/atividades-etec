@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Projetos\\HALISSON2 (1)\\HALISSON2\\P.A\\exercicios\\exercicio 25\\exercicio25\\exercicio25\\exercicio25.csproj",
+      "projectUniqueName": "C:\\Projetos\\Estudos\\atividades-etec\\modulo 1\\P.A\\exercicios\\exercicio 25\\exercicio25\\exercicio25\\exercicio25.csproj",
       "projectName": "exercicio25",
-      "projectPath": "C:\\Projetos\\HALISSON2 (1)\\HALISSON2\\P.A\\exercicios\\exercicio 25\\exercicio25\\exercicio25\\exercicio25.csproj",
+      "projectPath": "C:\\Projetos\\Estudos\\atividades-etec\\modulo 1\\P.A\\exercicios\\exercicio 25\\exercicio25\\exercicio25\\exercicio25.csproj",
       "packagesPath": "C:\\Users\\Acer\\.nuget\\packages\\",
-      "outputPath": "C:\\Projetos\\HALISSON2 (1)\\HALISSON2\\P.A\\exercicios\\exercicio 25\\exercicio25\\exercicio25\\obj\\",
+      "outputPath": "C:\\Projetos\\Estudos\\atividades-etec\\modulo 1\\P.A\\exercicios\\exercicio 25\\exercicio25\\exercicio25\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

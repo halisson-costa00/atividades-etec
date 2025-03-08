@@ -64,3 +64,6 @@ Z:\1A-MODULAR\HALISSON2\P.A\exercicios\exercicios24\exercicios24\exercicios24\ob
 Z:\1A-MODULAR\HALISSON2\P.A\exercicios\exercicios24\exercicios24\exercicios24\obj\Debug\net8.0-windows\exercicios24.genruntimeconfig.cache
 Z:\1A-MODULAR\HALISSON2\P.A\exercicios\exercicios24\exercicios24\exercicios24\obj\Debug\net8.0-windows\ref\exercicios24.dll
 F:\1A-MODULAR\HALISSON2\P.A\exercicios\exercicios24\exercicios24\exercicios24\obj\Debug\net8.0-windows\exercicios24.Properties.Resources.resources
+C:\Projetos\Estudos\atividades-etec\modulo 1\P.A\exercicios\exercicios24\exercicios24\exercicios24\obj\Debug\net8.0-windows\exercicios24.dll
+C:\Projetos\Estudos\atividades-etec\modulo 1\P.A\exercicios\exercicios24\exercicios24\exercicios24\obj\Debug\net8.0-windows\refint\exercicios24.dll
+C:\Projetos\Estudos\atividades-etec\modulo 1\P.A\exercicios\exercicios24\exercicios24\exercicios24\obj\Debug\net8.0-windows\exercicios24.pdb

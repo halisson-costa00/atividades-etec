@@ -1,36 +1,36 @@
-use dbEscola;
+-- Selecionando o banco de dados "dbEscola"
+USE dbEscola;
 
- create table tBest(
- 
- idUf tinyint primary key,
-
-NomeUfs char (2) not null,
-
-NomeEstado char (40) not null,
-
- );
-
-alter table tbEndereço add constraint fk_idUfs_tbEndereço foreign key (idUF) references tbBest (idUf);
-
-sp_rename'tbest','tbEstado';
-
-sp_rename 'NomeUfs','NomeUf';
-
-create table tbCidade(
-
-idCid int primary key,
-
-NomeCidade char (50) not null
-
+-- Criando a tabela "tbEstado" (antes chamada "tBest") para armazenar estados
+CREATE TABLE tbEstado (
+    idUf TINYINT PRIMARY KEY, -- Identificador único do estado (chave primária)
+    NomeUf CHAR(2) NOT NULL, -- Sigla do estado (exemplo: SP, RJ)
+    NomeEstado CHAR(40) NOT NULL -- Nome completo do estado
 );
 
-alter table tbEndereço add idCid int;	
+-- Criando a chave estrangeira na tabela "tbEndereço" para referenciar "tbEstado"
+ALTER TABLE tbEndereco ADD CONSTRAINT fk_idUfs_tbEndereco FOREIGN KEY (idUF) REFERENCES tbEstado (idUf);
 
-alter table tbCidade alter column NomeCidade char (250);
+-- Renomeando a tabela "tBest" para "tbEstado" (caso já exista com esse nome errado)
+EXEC sp_rename 'tBest', 'tbEstado';
 
-alter table tbEndereço add constraint fk_idCid_tbEndereço foreign key (idCid) references tbCidade (idCid);
+-- Renomeando a coluna "NomeUfs" para "NomeUf" dentro da tabela "tbEstado"
+EXEC sp_rename 'tbEstado.NomeUfs', 'NomeUf', 'COLUMN';
 
-select* from tbCidade;
+-- Criando a tabela "tbCidade" para armazenar cidades
+CREATE TABLE tbCidade (
+    idCid INT PRIMARY KEY, -- Identificador único da cidade (chave primária)
+    NomeCidade CHAR(50) NOT NULL -- Nome da cidade (obrigatório)
+);
 
+-- Adicionando a coluna "idCid" na tabela "tbEndereco" para associá-la a uma cidade
+ALTER TABLE tbEndereco ADD idCid INT;
 
+-- Alterando a coluna "NomeCidade" da tabela "tbCidade" para aceitar 250 caracteres
+ALTER TABLE tbCidade ALTER COLUMN NomeCidade CHAR(250);
 
+-- Criando a chave estrangeira na tabela "tbEndereco" para referenciar "tbCidade"
+ALTER TABLE tbEndereco ADD CONSTRAINT fk_idCid_tbEndereco FOREIGN KEY (idCid) REFERENCES tbCidade (idCid);
+
+-- Selecionando todos os registros da tabela "tbCidade"
+SELECT * FROM tbCidade;

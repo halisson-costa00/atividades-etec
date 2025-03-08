@@ -47,3 +47,6 @@ F:\1A-MODULAR\HALISSON2\P.A\exercicios\exercicio 23\exercicio23\exercicio23\obj\
 F:\1A-MODULAR\HALISSON2\P.A\exercicios\exercicio 23\exercicio23\exercicio23\obj\Debug\net8.0-windows\exercicio23.pdb
 F:\1A-MODULAR\HALISSON2\P.A\exercicios\exercicio 23\exercicio23\exercicio23\obj\Debug\net8.0-windows\exercicio23.genruntimeconfig.cache
 F:\1A-MODULAR\HALISSON2\P.A\exercicios\exercicio 23\exercicio23\exercicio23\obj\Debug\net8.0-windows\ref\exercicio23.dll
+C:\Projetos\Estudos\atividades-etec\modulo 1\P.A\exercicios\exercicio 23\exercicio23\exercicio23\obj\Debug\net8.0-windows\exercicio23.dll
+C:\Projetos\Estudos\atividades-etec\modulo 1\P.A\exercicios\exercicio 23\exercicio23\exercicio23\obj\Debug\net8.0-windows\refint\exercicio23.dll
+C:\Projetos\Estudos\atividades-etec\modulo 1\P.A\exercicios\exercicio 23\exercicio23\exercicio23\obj\Debug\net8.0-windows\exercicio23.pdb

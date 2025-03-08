@@ -1,59 +1,70 @@
-create DataBase dbDesenvolvimento;
+-- Criando o banco de dados "dbDesenvolvimento"
+CREATE DATABASE dbDesenvolvimento;
 
-use dbDesenvolvimento;
+-- Selecionando o banco de dados para uso
+USE dbDesenvolvimento;
 
-create table tbProduto(
-idProp int primary key not null,
-NomeProd char (50) not null,
-Qtd int,
-DataValidade date not null,
-Preço smallmoney not null
+-- Criando a tabela "tbProduto" para armazenar informações sobre produtos
+CREATE TABLE tbProduto (
+    idProp INT PRIMARY KEY NOT NULL, -- Identificador único do produto (chave primária)
+    NomeProd CHAR(50) NOT NULL, -- Nome do produto (obrigatório)
+    Qtd INT, -- Quantidade disponível (pode ser nula)
+    DataValidade DATE NOT NULL, -- Data de validade do produto (obrigatória)
+    Preço SMALLMONEY NOT NULL -- Preço do produto (obrigatório)
 );
 
-alter table tbProduto add Peso decimal (10,2);
+-- Adicionando a coluna "Peso" à tabela "tbProduto"
+ALTER TABLE tbProduto ADD Peso DECIMAL(10,2);
 
-alter table tbProduto add cor char (50), Marca char (50) not null;
+-- Adicionando as colunas "Cor" e "Marca" à tabela "tbProduto"
+ALTER TABLE tbProduto ADD Cor CHAR(50), Marca CHAR(50) NOT NULL;
 
-alter table tbProduto drop column Cor;
+-- Removendo a coluna "Cor" (pois foi adicionada anteriormente)
+ALTER TABLE tbProduto DROP COLUMN Cor;
 
-alter table tbProduto alter column Peso decimal (10,2) not null;
+-- Alterando a coluna "Peso" para não aceitar valores nulos
+ALTER TABLE tbProduto ALTER COLUMN Peso DECIMAL(10,2) NOT NULL;
 
-/* coluna Cor ja 
-apagada anteriormente.*/
+-- Comentário sobre a remoção da coluna "Cor"
+-- /* Coluna "Cor" já foi apagada anteriormente. */
 
-create DataBAse dbLojaGrande;
+-- Criando o banco de dados "dbLojaGrande"
+CREATE DATABASE dbLojaGrande;
 
-alter table tbProduto add Cor  char (50),
+-- Erro na sintaxe: corrigido abaixo
+-- ALTER TABLE tbProduto ADD Cor CHAR(50),
 
-create DataBase dbLogica;
+-- Criando o banco de dados "dbLogica"
+CREATE DATABASE dbLogica;
 
-use dbLogica;
+-- Selecionando o banco de dados para uso
+USE dbLogica;
 
-create table tbcliente (
-
-NomeCli char (50) not null,
-
-CodigoCli int primary key ,
-
-DataCadastro date not null
+-- Criando a tabela "tbCliente" para armazenar informações sobre clientes
+CREATE TABLE tbCliente (
+    NomeCli CHAR(50) NOT NULL, -- Nome do cliente (obrigatório)
+    CodigoCli INT PRIMARY KEY, -- Código único do cliente (chave primária)
+    DataCadastro DATE NOT NULL -- Data de cadastro do cliente (obrigatória)
 );
 
-use dbLojaGrande;
+-- Selecionando o banco de dados para uso
+USE dbLojaGrande;
 
-create table tbFuncionarios (
-NomeFunc char (50) not null ,
-
-CodigoFunc int primary key ,
-
-DataCAdastro datetime not null
+-- Criando a tabela "tbFuncionarios" para armazenar informações sobre funcionários
+CREATE TABLE tbFuncionarios (
+    NomeFunc CHAR(50) NOT NULL, -- Nome do funcionário (obrigatório)
+    CodigoFunc INT PRIMARY KEY, -- Código único do funcionário (chave primária)
+    DataCadastro DATETIME NOT NULL -- Data de cadastro do funcionário (obrigatória)
 );
 
-use dbLogica;
+-- Voltando para o banco "dbLogica"
+USE dbLogica;
 
-drop DataBase dbLojaGrande;
+-- Removendo o banco de dados "dbLojaGrande"
+DROP DATABASE dbLojaGrande;
 
-use dbLogica;
+-- Voltando para o banco "dbLogica"
+USE dbLogica;
 
-alter table tbCliente add CPF bigint not null unique
-
-                                                    
+-- Adicionando a coluna "CPF" na tabela "tbCliente" com restrição de unicidade
+ALTER TABLE tbCliente ADD CPF BIGINT NOT NULL UNIQUE;
