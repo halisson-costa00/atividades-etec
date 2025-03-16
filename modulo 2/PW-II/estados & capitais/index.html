@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estados e Capitais do Brasil</title>
+    
+    <style>
+        /* Estilização do corpo da página */
+        body {
+            font-family: Arial, sans-serif; /* Define a fonte padrão */
+            text-align: center; /* Centraliza os textos */
+            background: linear-gradient(to right, rgb(89, 222, 255), rgb(79, 51, 208)); /* Fundo com gradiente */
+            margin: 0; /* Remove margens */
+            padding: 20px; /* Adiciona espaço ao redor do conteúdo */
+        }
+
+        /* Caixa principal onde fica o conteúdo */
+        .container {
+            background: white; /* Fundo branco */
+            padding: 20px; /* Espaçamento interno */
+            border-radius: 10px; /* Borda arredondada */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para efeito 3D */
+            max-width: 400px; /* Largura máxima */
+            margin: auto; /* Centraliza a caixa */
+        }
+
+        /* Estilização do título */
+        h1 {
+            font-size: 24px;
+            color: #333;
+        }
+
+        /* Estilização do rótulo acima do select */
+        label {
+            font-weight: bold; /* Deixa o texto em negrito */
+            font-size: 16px; /* Tamanho do texto */
+            display: block; /* Faz o texto ocupar toda a linha */
+            margin: 10px 0 5px; /* Espaçamento entre elementos */
+        }
+
+        /* Estilização do select (dropdown) */
+        select {
+            width: 100%; /* Ocupa toda a largura disponível */
+            padding: 10px; /* Espaçamento interno */
+            font-size: 16px; /* Tamanho da fonte */
+            border-radius: 5px; /* Borda arredondada */
+            border: 1px solid #ccc; /* Cor da borda */
+        }
+
+        /* Caixa onde serão exibidas as informações do estado */
+        .info-box {
+            background: #e9ecef; /* Fundo cinza claro */
+            padding: 15px; /* Espaçamento interno */
+            border-radius: 5px; /* Bordas arredondadas */
+            margin-top: 15px; /* Espaçamento entre os elementos */
+            text-align: left; /* Alinha o texto à esquerda */
+        }
+
+        /* Estilização dos textos dentro da info-box */
+        p {
+            margin: 8px 0; /* Espaçamento entre os parágrafos */
+            font-size: 16px;
+        }
+
+        /* Destaca os textos importantes */
+        strong {
+            color: #007BFF; /* Azul forte */
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Caixa principal onde está o conteúdo -->
+    <div class="container">
+        <!-- Título da página -->
+        <h1>Estados e Capitais do Brasil</h1>
+
+        <!-- Dropdown para selecionar um estado -->
+        <label for="estado">Escolha um estado:</label>
+        <select id="estado" onchange="atualizarInformacoes()">
+            <!-- Opção padrão antes de selecionar um estado -->
+            <option value="">-- Selecione --</option>
+        </select>
+
+        <!-- Caixa onde serão exibidas as informações do estado escolhido -->
+        <div id="informacoes" class="info-box">
+            <p><strong>Estado:</strong> <span id="nomeUF">---</span></p>
+            <p><strong>Capital:</strong> <span id="capital">---</span></p>
+            <p><strong>Quem nasce no estado:</strong> <span id="gentilicoEstado">---</span></p>
+            <p><strong>Quem nasce na capital:</strong> <span id="gentilicoCapital">---</span></p>
+        </div>
+    </div>
+
+    <script>
+        // Lista de estados do Brasil com as respectivas informações
+        const estados = [
+            { uf: "AC", nome: "Acre", capital: "Rio Branco", gentilicoEstado: "Acriano", gentilicoCapital: "Rio-branquense" },
+            { uf: "AL", nome: "Alagoas", capital: "Maceió", gentilicoEstado: "Alagoano", gentilicoCapital: "Maceioense" },
+            { uf: "AP", nome: "Amapá", capital: "Macapá", gentilicoEstado: "Amapaense", gentilicoCapital: "Macapaense" },
+            { uf: "AM", nome: "Amazonas", capital: "Manaus", gentilicoEstado: "Amazonense", gentilicoCapital: "Manauara" },
+            { uf: "BA", nome: "Bahia", capital: "Salvador", gentilicoEstado: "Baiano", gentilicoCapital: "Soteropolitano" },
+            { uf: "CE", nome: "Ceará", capital: "Fortaleza", gentilicoEstado: "Cearense", gentilicoCapital: "Fortalezense" },
+            { uf: "DF", nome: "Distrito Federal", capital: "Brasília", gentilicoEstado: "Brasiliense", gentilicoCapital: "Brasiliense" },
+            { uf: "ES", nome: "Espírito Santo", capital: "Vitória", gentilicoEstado: "Capixaba", gentilicoCapital: "Vitoriense" },
+            { uf: "GO", nome: "Goiás", capital: "Goiânia", gentilicoEstado: "Goiano", gentilicoCapital: "Goianiense" },
+            { uf: "MA", nome: "Maranhão", capital: "São Luís", gentilicoEstado: "Maranhense", gentilicoCapital: "Ludovicense" },
+            { uf: "MT", nome: "Mato Grosso", capital: "Cuiabá", gentilicoEstado: "Mato-grossense", gentilicoCapital: "Cuiabano" },
+            { uf: "MS", nome: "Mato Grosso do Sul", capital: "Campo Grande", gentilicoEstado: "Sul-mato-grossense", gentilicoCapital: "Campo-grandense" },
+            { uf: "MG", nome: "Minas Gerais", capital: "Belo Horizonte", gentilicoEstado: "Mineiro", gentilicoCapital: "Belo-horizontino" },
+            { uf: "PA", nome: "Pará", capital: "Belém", gentilicoEstado: "Paraense", gentilicoCapital: "Belenense" },
+            { uf: "PB", nome: "Paraíba", capital: "João Pessoa", gentilicoEstado: "Paraibano", gentilicoCapital: "Pessoense" },
+            { uf: "PR", nome: "Paraná", capital: "Curitiba", gentilicoEstado: "Paranaense", gentilicoCapital: "Curitibano" },
+            { uf: "PE", nome: "Pernambuco", capital: "Recife", gentilicoEstado: "Pernambucano", gentilicoCapital: "Recifense" },
+            { uf: "PI", nome: "Piauí", capital: "Teresina", gentilicoEstado: "Piauiense", gentilicoCapital: "Teresinense" },
+            { uf: "RJ", nome: "Rio de Janeiro", capital: "Rio de Janeiro", gentilicoEstado: "Fluminense", gentilicoCapital: "Carioca" },
+            { uf: "RN", nome: "Rio Grande do Norte", capital: "Natal", gentilicoEstado: "Potiguar", gentilicoCapital: "Natalense" },
+            { uf: "RS", nome: "Rio Grande do Sul", capital: "Porto Alegre", gentilicoEstado: "Gaúcho", gentilicoCapital: "Porto-alegrense" },
+            { uf: "RO", nome: "Rondônia", capital: "Porto Velho", gentilicoEstado: "Rondoniense", gentilicoCapital: "Porto-velhense" },
+            { uf: "RR", nome: "Roraima", capital: "Boa Vista", gentilicoEstado: "Roraimense", gentilicoCapital: "Boa-vistense" },
+            { uf: "SC", nome: "Santa Catarina", capital: "Florianópolis", gentilicoEstado: "Catarinense", gentilicoCapital: "Florianopolitano" },
+            { uf: "SP", nome: "São Paulo", capital: "São Paulo", gentilicoEstado: "Paulista", gentilicoCapital: "Paulistano" },
+            { uf: "SE", nome: "Sergipe", capital: "Aracaju", gentilicoEstado: "Sergipano", gentilicoCapital: "Aracajuano" },
+            { uf: "TO", nome: "Tocantins", capital: "Palmas", gentilicoEstado: "Tocantinense", gentilicoCapital: "Palmense" }
+        ];
+
+        // Obtém o elemento do select no HTML
+        const selectEstado = document.getElementById("estado");
+
+        // Preenche o select com os estados disponíveis
+        estados.forEach(estado => {
+            let option = document.createElement("option"); // Cria uma nova opção no select
+            option.value = estado.uf; // Define o valor da opção como a sigla do estado
+            option.textContent = `${estado.nome} (${estado.uf})`; // Define o texto visível da opção
+            selectEstado.appendChild(option); // Adiciona a opção ao select
+        });
+
+        // Função chamada quando um estado é selecionado
+        function atualizarInformacoes() {
+            let ufSelecionada = selectEstado.value; // Obtém a sigla do estado selecionado
+            let estadoInfo = estados.find(e => e.uf === ufSelecionada); // Busca as informações do estado na lista
+
+            // Se o estado foi encontrado, atualiza as informações na página
+            if (estadoInfo) {
+                document.getElementById("nomeUF").textContent = estadoInfo.nome;
+                document.getElementById("capital").textContent = estadoInfo.capital;
+                document.getElementById("gentilicoEstado").textContent = estadoInfo.gentilicoEstado;
+                document.getElementById("gentilicoCapital").textContent = estadoInfo.gentilicoCapital;
+            } else {
+                // Se nenhum estado foi selecionado, exibe traços
+                document.getElementById("nomeUF").textContent = "---";
+                document.getElementById("capital").textContent = "---";
+                document.getElementById("gentilicoEstado").textContent = "---";
+                document.getElementById("gentilicoCapital").textContent = "---";
+            }
+        }
+    </script>
+
+</body>
+</html>
