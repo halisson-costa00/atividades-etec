@@ -1,0 +1,112 @@
+MICROSOFT 
+
+ .NET-Lançando em 2002
+
+ - CONSOLE
+ - WINDOWS FORMS 
+ - ASP.NET MVC(MODEL,VIEW, CONTROLLER) 
+ - ASP.NET CORE MVC(MODEL,VIEW, CONTROLLER) 
+
+*************************************** ORIENTACAO A OBJETO *****************************************
+
+*****************************************************************************************************
+						OBJETO
+*****************************************************************************************************
+Uma entidade do mundo real com características (atributos) e comportamentos
+
+Objeto - atributo cor - atributo ano
+Ferrari    vermelha        2023
+
+*****************************************************************************************************
+						METODO 
+*****************************************************************************************************
+Ação ou comportamentos que o objeto realiza
+
+acelarar(), ligar()
+
+***************************************************************************************************
+						CLASSE
+***************************************************************************************************
+Uma classe é um modelo ou molde para criar objetos , a classe define os objetos e metodos 
+
+Ex: 
+
+classe Carro
+
+Objeto  - atributo(modelo) atributo(cor) 
+Fusca -  VW Fuscão 1600 - Amarelo 1980
+
+
+***********************************************************************************************
+			         	ABSTRAÇÃO
+***********************************************************************************************
+O objetivo é focar nos aspectos essenciais de um objeto, ignorando os detalhes irrelevantes. 
+
+************************************************************************************************
+					 HERANÇA
+************************************************************************************************
+
+Herança permite que uma classe (subclasse) herde atributos e métodos de outra classe (superclasse). 
+podendo reutiliza o codigo.
+
+
+*************************************************************************************************
+					POLIFORMISMO
+*************************************************************************************************
+
+Polimorfismo significa "múltiplas formas". Em Orientação a objetos, permite que objetos de diferentes classes respondam ao mesmo método de maneiras diferentes.
+
+Exemplo
+
+Classe: Veiculo
+
+Metodo: pilotar()
+
+Subclasse : Carro  e Moto
+
+Carro.pilotar() "gira"  Moto.pilotar() "guia"
+
+O mesmo metodo pilotar() tem comportamentos diferentes
+
+
+***************************************************************************************************
+					ENCAPSULAMENTO
+***************************************************************************************************
+
+é o princípio de "esconder" os detalhes internos de um objeto e controlar o acesso aos seus atributos e métodos. Isso protege o objeto de alterações indesejadas e promove a organização do código
+
+Classe: Carro o atributo velocidade pode ser privado
+ai metodos publicos como acelerar() controlam a alteração da "velocidade" isso garante que permaneça dentro dos limites
+
+
+***********************************************************************************************
+					CONSTRUTOR
+***********************************************************************************************
+
+Desempenha um papel fundamental na criação de objetos em programação orientada a objetos,é inicializar os atributos de um objeto com valores iniciais apropriados. 
+Isso garante que o objeto comece em um estado consistente e pronto para uso.
+
+
+O nome de um construtor é sempre o mesmo que o nome da classe à qual pertence.
+Construtores não possuem um tipo de retorno, nem mesmo "void". Sua função é apenas inicializar o objeto.
+
+
+Classe Carro:
+    Atributos:
+        cor
+        ano
+
+    Construtor(corInicial, anoInicial):
+        cor = corInicial
+        ano = anoInicial
+
+    Método exibirDetalhes():
+        Imprimir("Cor: ", cor)
+        Imprimir("Ano: ", ano)
+
+# Criação de objetos usando o construtor
+meuCarro = Carro("Vermelho", 2019)
+outroCarro = Carro("Azul", 2020)
+
+
+

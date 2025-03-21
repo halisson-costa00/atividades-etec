@@ -1,0 +1,46 @@
+
+
+
+1º CRIAR A PASTA DO PROJETO
+
+2º ABRIR A PASTA DO PROJETO NO VSCODE
+
+3º CRIAR A ESTRUTURA BASICA DO PROJETO
+
+**** GIT ****
+
+1º DENTRO DA PASTA DO PROJETO INICIAR O GIT
+   git init
+
+2º CONFIGURAR OU VER USUARIOS LOGADO NO GIT BASH
+   -- adicionando o nome do usuario
+  git config --global user.name "Nome"
+   -- adicionando o email do usuario
+  git config --global user.email email@email.com
+
+  --verificar se tem usuario logado
+
+  git config --global user.name
+  git config --global user.email
+
+3º VERIFICA COMO ESTA O STATUS DO GIT
+ git status
+
+4º ADICIONA O ARQUIVO NO GIT
+ git add .
+
+5º REALIZA O COMMIT 
+  git commit -m "mensagem"
+
+6º VERIFICA TODOS OS COMMITS REALIZADOS
+ git log
+
+7º ALTERA A MENSAGEM DO ÚLTIMO COMMIT FEITO
+ git commit --amend -m "nova mensagem"
+
+
+CRIANDO O ARQUIVO gitignore
+
+touch .gitignore
+
+site para pegar o script:https://www.toptal.com/developers/gitignore

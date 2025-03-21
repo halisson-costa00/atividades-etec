@@ -1,0 +1,79 @@
+GIT BASH
+CRIADO EM  Em 2002 POR LINUX TORVALDS
+
+
+ENTRAR NO DESKTOP
+cd desktop
+
+CRIAR A PASTA VIA COMANDO
+ mkdir NomeDaPasta
+
+ABRIR A PASTA DENTRO DO VSCODE
+ entra na pasta e no terminal digita:
+
+ code .
+
+INICIA O GIT
+git init
+
+VERIFICA SE TEM USUARIO
+git config --global user.name
+
+CONFIGURAR O USUARIO 
+git config --global user.name "NOME"
+
+VERIFICA SE TEM E EMAIL
+git config --global user.email
+
+CONFIGURA O EMAIL
+git config --global user.email email@email.com
+
+VERIFICA A SITUAÇÃO DO GIT 
+git status
+
+ADICIONA O ARQUIVO OU ALTERAÇÃO 
+git add .
+
+
+VERIFICA A SITUAÇÃO DO GIT 
+git status
+
+CRIAR UMA MENSAGEM DO QUE FOI FEITO
+
+git commit -m "criando o projeto"
+
+
+VERIFICA OS COMMITS FEITOS
+
+git log
+
+
+CRIAR UMA BRANCH   
+
+git checkout - b novBranch
+
+
+crie um novo arquivo
+
+adicione e commit
+
+volte para a branch master e veja que o arquivo 2 não aparece
+git checkout master
+
+
+fazendo o merge junto as coisas da novaBranch no master 
+
+git branch mostra todas as branchs
+
+git  merge novaBranch
+
+apagando uma branch
+
+git branch -d novaBranch
+
+ALTERA O ULTIMO COMMIT FEITO
+
+git commit --amend -m 'mensagem de correção aqui'
+
+
+

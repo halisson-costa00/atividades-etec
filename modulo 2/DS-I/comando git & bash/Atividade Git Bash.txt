@@ -1,0 +1,19 @@
+na branch Dev criar no index.html um novo paragrafo com texto lorem
+criar um botão detalhes 
+verificar
+adicionar
+comitar 
+voltar na master e trazer o que fez na dev
+na master criar uma nova branch chamada teste
+na teste criar um paragrafo com lorem
+verificar
+adicionar
+comitar 
+ir na branch dev e trazer o que fez na teste
+
+ir na master e trazer tudo da dev
+
+git checkout -b (nome) - criar uma nova branch
+git branch - mostra todas as branchs criadas
+git checkout (nome)- navega entre as branchs
+git merge (nome) - traz o conteudo da outra branch
