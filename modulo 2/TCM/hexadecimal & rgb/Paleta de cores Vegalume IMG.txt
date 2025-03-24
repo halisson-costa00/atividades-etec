@@ -1,0 +1,39 @@
+/* CSS HEX */
+ --green-spring: #bcc4b2;
+--racing-green: #0f1f11;
+--atlantis: #9ec42e;
+--green-smoke: #93a867;
+--christi: #3c9b0d;
+--gray-nurse: #e2e9e0;
+--chicago: #5c5c52;
+--spanish-green: #829086;
+--sidecar: #eef3b7;
+--natural-gray: #8c8c84;
+
+
+/* SCSS HEX */
+$green-spring: #bcc4b2;
+$racing-green: #0f1f11;
+$atlantis: #9ec42e;
+$green-smoke: #93a867;
+$christi: #3c9b0d;
+$gray-nurse: #e2e9e0;
+$chicago: #5c5c52;
+$spanish-green: #829086;
+$sidecar: #eef3b7;
+$natural-gray: #8c8c84;
+
+
+/* SCSS RGB */
+--green-spring: rgba(188,196,178,1);
+--racing-green: rgba(15,31,17,1);
+--atlantis: rgba(158,196,46,1);
+--green-smoke: rgba(147,168,103,1);
+--christi: rgba(60,155,13,1);
+--gray-nurse: rgba(226,233,224,1);
+--chicago: rgba(92,92,82,1);
+--spanish-green: rgba(130,144,134,1);
+--sidecar: rgba(238,243,183,1);
+--natural-gray: rgba(140,140,132,1);
+
+
